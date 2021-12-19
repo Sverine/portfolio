@@ -1,0 +1,95 @@
+import React,{ useEffect, useState } from 'react';
+import Logo from './Logo';
+import CV_DATA from '../assets/cv.data';
+
+import '../styles/components/_cv.scss';
+
+const Cv = ({color}) => {
+
+    const [active, setActive]= useState(false);
+
+
+    // const [experiences, setExperience] = useState(EXPERIENCES_DATA[0].experiences);
+    
+    const {experiences,educations,skills}= CV_DATA[0];
+
+
+    const handleScroll=()=>{
+        if (window.scrollY>3000){
+            window.removeEventListener('scroll', handleScroll);
+            setActive(true);
+        }
+    }
+    
+    useEffect(()=>{
+        window.addEventListener('scroll', handleScroll);
+    })
+
+
+    return (
+        <div className='cv'>
+            <Logo color1={color} color2="#6862CA"/>
+            <p style={{color:color}}>severine.sylvan@gmail.com</p>
+            <p style={{color:color}}>Vic la gardiole</p>
+
+            <div className="experiences">
+                <div className="title">
+                    <h3 style={{color:color}}>Expériences</h3>
+                    <img src="./img/underline-title.svg" alt="underline title"/>
+
+                </div>
+
+                <ul>
+                    {experiences.map((experience)=>(
+                        <li style={{color:color}} key={experience.id}>
+                            <p className='job'>{experience.job}</p>
+                            <p className='entreprise'>{experience.entreprise}</p>
+                            <p className='content'>{experience.content}</p>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+            <div className="educations">
+                <div className="title">
+                    <h3 style={{color:color}}>Formations</h3>
+                    <img src="./img/underline-title.svg" alt="underline title"/>
+
+                </div>
+                <ul>
+                    {educations.map((education)=>(
+                        <li style={{color:color}} key={education.id}>
+                            <p className='diploma'>{education.diploma}</p>
+                            <p className='year'>{education.year}</p>
+                            <p className='school'>{education.school}</p>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+            <div className="skills">
+                <div className="title">
+                    <h3 style={{color:color}}>Compétences</h3>
+                    <img src="./img/underline-title.svg" alt="underline title"/>
+                </div>
+                <ul>
+                    {skills.map((skill)=>(
+                        <li className='skill-list' style={{color:color}} key={skill.id}>
+                            <p className='skill'>{skill.name}</p>
+                            <div className="progress" 
+                            style={{backgroundColor:color==="white"?"rgba(255, 255, 255, 0.20)":"rgba(0, 0, 0, 0.10)"}}>
+                                <div style={{width:!active?"0%":skill.level,
+                                backgroundColor:!active?"#302A8B":"#8681D5",
+                                transition:`${skill.transition} ease-in-out`}} 
+                                className="progress-bar"></div>
+                            </div>
+                        </li>
+                    ))}
+                </ul>
+                <ul>
+                    
+                </ul>
+            </div>
+        </div>
+    );
+};
+
+export default Cv;

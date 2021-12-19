@@ -1,0 +1,12 @@
+@import "../settings.scss";
+
+.home{
+    transition-property: background-color;
+    transition: 0.8s ease-out;
+    .container{
+        margin:0 auto;
+        max-width:1440px;
+        padding:0 50px;
+        @include flex-column;
+    }
+}

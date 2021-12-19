@@ -1,0 +1,17 @@
+@import "../settings.scss";
+
+.navigation{
+    display:flex;
+    justify-content:space-between;
+    .logo{
+        width:171px;
+    }
+    ul{
+        display:flex;
+        
+        li{
+            margin: 10px;
+            font-weight: 300;
+        }
+    }
+}
