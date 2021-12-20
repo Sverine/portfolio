@@ -3,6 +3,16 @@ import React, { useEffect, useRef, useState } from 'react';
 import '../styles/components/_projects.scss';
 import Isotope from 'isotope-layout';
 
+import faventine from '../assets/projects-img/faventine-joaillerie-item-img.jpeg';
+import zerosix from '../assets/projects-img/zerosix-item-img.jpeg';
+import etapesPrint from '../assets/projects-img/etapes-print-item-img.jpeg';
+import laposte from '../assets/projects-img/courrier-plus-item-img.jpeg';
+import eggShot from '../assets/projects-img/egg-shot-item-img.jpeg';
+import leBonCoin from '../assets/projects-img/leboncoin-item-img.jpeg';
+import fiaac from '../assets/projects-img/fiaac-item-img.jpeg';
+import muchosTacos from '../assets/projects-img/muchos-tacos-item-img.jpeg';
+import laGrandeVache from '../assets/projects-img/la-grande-vache-item-img.jpeg';
+
 const Projects = ({color,content}) => {
 
     const themes = content.projects;
@@ -56,7 +66,7 @@ const Projects = ({color,content}) => {
                 <div className={`item ${themes[0]} ${themes[1]}`}>
                     <a href="">
                         <figure>
-                            <img src="./img/faventine-joaillerie-item-img.jpeg" alt=""/>
+                            <img src={faventine} alt="Miniature Faventine Joaillerie"/>
                         </figure>
                     </a>
                 </div>
@@ -64,7 +74,7 @@ const Projects = ({color,content}) => {
                 <div className={`item ${themes[0]} ${themes[1]} ${themes[2]} ${themes[3]}`}>
                     <a href="">
                         <figure>
-                            <img src="./img/zerosix-item-img.jpeg" alt=""/>
+                            <img src={zerosix} alt="Miniature ZEROSIX"/>
                         </figure>
                     </a>
                 </div>
@@ -72,14 +82,14 @@ const Projects = ({color,content}) => {
                 <div className={`item ${themes[2]}`}>
                     <a href="">
                         <figure>
-                            <img src="./img/etapes-print-item-img.jpeg" alt=""/>
+                            <img src={etapesPrint} alt="Miniature Etapes Print"/>
                         </figure>
                     </a>
                 </div>
                 <div className={`item ${themes[0]}`}>
                     <a href="">
                         <figure>
-                            <img src="./img/courrier-plus-item-img.jpeg" alt=""/>
+                            <img src={laposte} alt="Miniature La Poste"/>
                         </figure>
                     </a>
                 </div>
@@ -87,7 +97,7 @@ const Projects = ({color,content}) => {
                 <div className={`item ${themes[0]} ${themes[2]}`}>
                     <a href="">
                         <figure>
-                            <img src="./img/egg-shot-item-img.jpeg" alt=""/>
+                            <img src={eggShot} alt="Miniature EggShot"/>
                         </figure>
                     </a>
                 </div>
@@ -95,14 +105,14 @@ const Projects = ({color,content}) => {
                 <div className={`item ${themes[0]}`}>
                     <a href="">
                         <figure>
-                            <img src="./img/leboncoin-item-img.jpeg" alt=""/>
+                            <img src={leBonCoin} alt="Miniature Leboncoin"/>
                         </figure>
                     </a>
                 </div>
                 <div className={`item ${themes[2]}`}>
                     <a href="">
                         <figure>
-                            <img src="./img/fiaac-item-img.jpeg" alt=""/>
+                            <img src={fiaac} alt="Miniature FIAAC"/>
                         </figure>
                     </a>
                 </div>
@@ -110,7 +120,7 @@ const Projects = ({color,content}) => {
                 <div className={`item ${themes[0]} ${themes[1]} ${themes[2]} ${themes[3]}`}>
                     <a href="">
                         <figure>
-                            <img src="./img/muchos-tacos-item-img.jpeg" alt=""/>
+                            <img src={muchosTacos} alt="Miniature Muchos Tacos"/>
                         </figure>
                     </a>
                 </div>
@@ -118,7 +128,7 @@ const Projects = ({color,content}) => {
                 <div className={`item ${themes[2]}`}>
                     <a href="">
                         <figure>
-                            <img src="./img/la-grande-vache-item-img.jpeg" alt=""/>
+                            <img src={laGrandeVache} alt="Miniature La Grande Vache"/>
                         </figure>
                     </a>
                 </div>

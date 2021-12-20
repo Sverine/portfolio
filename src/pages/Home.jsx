@@ -10,14 +10,14 @@ import Projects from '../components/Projects';
 import Title from '../components/Title';
 
 import '../styles/pages/home.scss';
-import HOMEPAGE_DATA from '../assets/homepage.data';
+import HOMEPAGE_DATA from '../assets/data/homepage.data';
 
 
 const Home = () => {
 
     
-    const [darkMode, setDarkMode] = useState(false);
-    const [color, setColor]= useState("#333333");
+    const [darkMode, setDarkMode] = useState(true);
+    const [color, setColor]= useState("white");
     const [language, setLanguage] = useState(0);
 
     const {navigation, profile, projects, experiences,educations,contact, footer}= HOMEPAGE_DATA[language];
