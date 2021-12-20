@@ -7,8 +7,17 @@ import "../styles/components/_contact.scss";
 
 const Contact = ({color,content}) => {
 
-    const [isValid, setIsValid] = useState(true);
     const form = useRef();
+
+    const [name,setName]=useState("");
+    const [email,setEmail]=useState("");
+    const [message,setMessage]=useState("");
+
+    const templateParams={
+        name,
+        email,
+        message
+    }
 
     const displayMessage = (message)=> {
         let formMessage = document.querySelector(message);
@@ -30,13 +39,12 @@ const Contact = ({color,content}) => {
             }
         };
         if (values.length === 3){
-            displayMessage('.validation-message');
-            for (let input of inputs) input.value="";
-            values=[];
-            
-            emailjs.sendForm('service_0pd0c7v', 'template_alzxn74', form.current, 'user_xqQEx0mRXtsS4PCxIAyB6')
-              .then((result) => {
+            emailjs.send('service_0pd0c7v', 'template_alzxn74', templateParams, 'user_xqQEx0mRXtsS4PCxIAyB6')
+            .then((result) => {
                 console.log(result.text);
+                displayMessage('.validation-message');
+                for (let input of inputs) input.value="";
+                values=[];
               }, (error) => {
                   console.log(error.text);
               });
@@ -46,7 +54,27 @@ const Contact = ({color,content}) => {
         }
       };
 
-    const handleChange = ()=>{
+    const handleChange = (e)=>{
+        
+        switch(e.target.name){
+            case "user_name":
+                setName(e.target.value);
+                break;
+            
+            case "user_email":
+                setEmail(e.target.value);
+                break;
+
+            case "message":
+                setMessage(e.target.value);
+                break;
+            
+            default:
+                setName("unknown user");
+                setEmail("unknown email");
+                setMessage("unknown message");
+        }
+
         let inputForm = document.getElementsByClassName('input-form');
         let values = [];
         let button= document.querySelector('.button-form')
