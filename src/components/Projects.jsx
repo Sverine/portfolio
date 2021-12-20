@@ -1,8 +1,7 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 import '../styles/components/_projects.scss';
 import Isotope from 'isotope-layout';
-import { useState } from 'react/cjs/react.development';
 
 const Projects = ({color,content}) => {
 
