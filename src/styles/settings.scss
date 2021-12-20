@@ -1,0 +1,30 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin:0;
+}
+
+li{
+    list-style: none;
+}
+
+h1,h2,h3{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.navigation, .profile, .title, .projects, .cv, .contact, .footer{
+    width:100%;
+    max-width:1000px;
+}
+
+$dark-purple:#302A8B;
+$light-purple:#8681D5;
+
+@mixin flex-column {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
