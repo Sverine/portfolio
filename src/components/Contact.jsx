@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
 
 import "../styles/components/_contact.scss";
+import paperPlane from '../assets/paper-plane.svg';
 
 
 
@@ -39,7 +40,7 @@ const Contact = ({color,content}) => {
             }
         };
         if (values.length === 3){
-            emailjs.send('service_0pd0c7v', 'template_alzxn74', templateParams, 'user_xqQEx0mRXtsS4PCxIAyB6')
+            emailjs.send(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, templateParams, process.env.REACT_APP_USER_ID)
             .then((result) => {
                 console.log(result.text);
                 displayMessage('.validation-message');
@@ -110,7 +111,7 @@ const Contact = ({color,content}) => {
 
                 <button type="submit" value="Send" className='button-form'>
                     <span>{content.button}</span>
-                    <img src="./img/paper-plane.svg" alt="icon of paper plane"/>
+                    <img src={paperPlane} alt="icon of paper plane"/>
                 </button>
             </form>
         </div>
