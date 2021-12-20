@@ -74,7 +74,7 @@ const Contact = ({color,content}) => {
                 style={{boxShadow:color==="white"?"0px 0px 23px 7px #191649":"0px 0px 23px 7px white"}}/>
 
                 <textarea className='input-form' name="message" placeholder='Message'
-                style={{boxShadow:color==="white"?"0px 0px 23px 7px #191649":"0px 0px 23px 7px #white"}}/>
+                style={{boxShadow:color==="white"?"0px 0px 23px 7px #191649":"0px 0px 23px 7px white"}}/>
 
                 <p className='form-message error-message' style={{opacity:0}}>{content.error}</p>
 
