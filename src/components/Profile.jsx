@@ -2,9 +2,10 @@ import React, { useEffect } from 'react';
 
 import '../styles/components/_profile.scss';
 
-const Profile = ({darkMode, color}) => {
+const Profile = ({darkMode, color, content}) => {
 
-    const jobsArray = ["Web developer", "UX/UI Designer"];
+
+    const jobsArray = content.jobs;
 
 
     let jobsTitleIndex=0;
@@ -24,11 +25,11 @@ const Profile = ({darkMode, color}) => {
 
     useEffect(()=>{
         showSlides();
-    },[])
+    },[jobsArray])
     
     return (
         <div className='profile'> 
-            <h1 style={{color:color}}>Hello, I am <br /> 
+            <h1 style={{color:color}}>{content.h1} <br /> 
                     {jobsArray.map((job, index)=>(
                         <span 
                         style={{color:darkMode?"#8681D5":"#302A8B"}}
@@ -37,15 +38,15 @@ const Profile = ({darkMode, color}) => {
                     ))}
             </h1>
             <figure>
-                <img src="https://via.placeholder.com/300"/>
+                <img src="https://via.placeholder.com/300" alt="image de Séverine Sylvan"/>
             </figure>
             <div style={{color:color}}>
-                <p>Diplômée d'une licence en Art Plastique (DNAP, diplôme national d’art plastique), d’un Master en Direction Artistique Webdesign et d'un diplôme de Développeur Web et Web Mobile, je suis passionnée par l'UX/UI design et l’innovation digitale.</p>
-                <p>Mes missions principales consistent à améliorer l’expérience utilisateur à travers des méthodes d’analyse et de conception orientées utilisateur (ateliers de créativité, parcours utilisateur, wireframes, maquettes d’interfaces, prototypes…) et ainsi faire évoluer les projets vers des pratiques plus innovantes.</p>
+                <p>{content.firstIntro}</p>
+                <p>{content.secondIntro}</p>
             </div>
 
             <div className="button-container">
-                <p style={{color:darkMode?"#8681D5":"#302A8B"}} className='my-projects'>My projects</p>
+                <p style={{color:darkMode?"#8681D5":"#302A8B"}} className='my-projects'>{content.button}</p>
                 <figure className='arrow-animation'>
                     <svg width="30" height="38" viewBox="0 0 17 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path 

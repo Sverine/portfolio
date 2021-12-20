@@ -1,18 +1,11 @@
 import React,{ useEffect, useState } from 'react';
 import Logo from './Logo';
-import CV_DATA from '../assets/cv.data';
 
 import '../styles/components/_cv.scss';
 
-const Cv = ({color}) => {
+const Cv = ({color, experiences,educations,skills}) => {
 
     const [active, setActive]= useState(false);
-
-
-    // const [experiences, setExperience] = useState(EXPERIENCES_DATA[0].experiences);
-    
-    const {experiences,educations,skills}= CV_DATA[0];
-
 
     const handleScroll=()=>{
         if (window.scrollY>3000){
@@ -70,6 +63,7 @@ const Cv = ({color}) => {
                     <h3 style={{color:color}}>Compétences</h3>
                     <img src="./img/underline-title.svg" alt="underline title"/>
                 </div>
+                
                 <ul>
                     {skills.map((skill)=>(
                         <li className='skill-list' style={{color:color}} key={skill.id}>
@@ -83,9 +77,6 @@ const Cv = ({color}) => {
                             </div>
                         </li>
                     ))}
-                </ul>
-                <ul>
-                    
                 </ul>
             </div>
         </div>

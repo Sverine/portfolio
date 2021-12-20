@@ -4,9 +4,9 @@ import '../styles/components/_projects.scss';
 import Isotope from 'isotope-layout';
 import { useState } from 'react/cjs/react.development';
 
-const Projects = ({color}) => {
+const Projects = ({color,content}) => {
 
-    const themes = ["uxui","développement","illustration","motion"];
+    const themes = content.projects;
 
     // init one ref to store the future isotope object
     const isotope = useRef();
@@ -54,7 +54,7 @@ const Projects = ({color}) => {
             </ul>
             <div className="portfolio-items">
                 
-                <div className="item uxui développement">
+                <div className={`item ${themes[0]} ${themes[1]}`}>
                     <a href="">
                         <figure>
                             <img src="./img/faventine-joaillerie-item-img.jpeg" alt=""/>
@@ -62,7 +62,7 @@ const Projects = ({color}) => {
                     </a>
                 </div>
 
-                <div className="item uxui développement illustration motion">
+                <div className={`item ${themes[0]} ${themes[1]} ${themes[2]} ${themes[3]}`}>
                     <a href="">
                         <figure>
                             <img src="./img/zerosix-item-img.jpeg" alt=""/>
@@ -70,14 +70,14 @@ const Projects = ({color}) => {
                     </a>
                 </div>
 
-                <div className="item illustration">
+                <div className={`item ${themes[2]}`}>
                     <a href="">
                         <figure>
                             <img src="./img/etapes-print-item-img.jpeg" alt=""/>
                         </figure>
                     </a>
                 </div>
-                <div className="item uxui">
+                <div className={`item ${themes[0]}`}>
                     <a href="">
                         <figure>
                             <img src="./img/courrier-plus-item-img.jpeg" alt=""/>
@@ -85,7 +85,7 @@ const Projects = ({color}) => {
                     </a>
                 </div>
 
-                <div className="item uxui illustration">
+                <div className={`item ${themes[0]} ${themes[2]}`}>
                     <a href="">
                         <figure>
                             <img src="./img/egg-shot-item-img.jpeg" alt=""/>
@@ -93,14 +93,14 @@ const Projects = ({color}) => {
                     </a>
                 </div>
 
-                <div className="item uxui">
+                <div className={`item ${themes[0]}`}>
                     <a href="">
                         <figure>
                             <img src="./img/leboncoin-item-img.jpeg" alt=""/>
                         </figure>
                     </a>
                 </div>
-                <div className="item illustration">
+                <div className={`item ${themes[2]}`}>
                     <a href="">
                         <figure>
                             <img src="./img/fiaac-item-img.jpeg" alt=""/>
@@ -108,7 +108,7 @@ const Projects = ({color}) => {
                     </a>
                 </div>
 
-                <div className="item uxui développement motion illustration">
+                <div className={`item ${themes[0]} ${themes[1]} ${themes[2]} ${themes[3]}`}>
                     <a href="">
                         <figure>
                             <img src="./img/muchos-tacos-item-img.jpeg" alt=""/>
@@ -116,7 +116,7 @@ const Projects = ({color}) => {
                     </a>
                 </div>
 
-                <div className="item illustration">
+                <div className={`item ${themes[2]}`}>
                     <a href="">
                         <figure>
                             <img src="./img/la-grande-vache-item-img.jpeg" alt=""/>
@@ -125,7 +125,7 @@ const Projects = ({color}) => {
                 </div>
 
             </div>
-            <h3 style={{color:color}}>and much more ...</h3>
+            <h3 style={{color:color}}>{content.more}</h3>
         </div>
     );
 };

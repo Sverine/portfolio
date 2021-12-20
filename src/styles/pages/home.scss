@@ -3,6 +3,10 @@
 .home{
     transition-property: background-color;
     transition: 0.8s ease-out;
+    background-image: url('../../assets/bg-lines.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 90%;
     .container{
         margin:0 auto;
         max-width:1440px;

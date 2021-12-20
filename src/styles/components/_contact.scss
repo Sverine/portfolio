@@ -7,6 +7,8 @@
     }
     form{
         @include flex-column;
+        position: relative;
+        
         input, textarea{
             font-weight: 300;
             width:80%;
@@ -24,6 +26,15 @@
             }
         }
 
+        .form-message{
+            transition-property: opacity;
+            transition: 0.8s ease-out;
+            position: absolute;
+            bottom:-70px;
+            &.validation-message{color:green;}
+            &.error-message{color:red;}
+        }
+
         button{
             margin-top:20px;
             width:50%;
@@ -39,6 +50,13 @@
             border-radius: 4px;
             border-style: none;
             border-color: inherit;
+            cursor:pointer;
+            transition-property: backgrond-color;
+            transition: 0.3s ease-out;
+
+            &:hover{
+                background-color:#463EC2 !important;
+            }
         }
 
         textarea{
