@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 import '../styles/components/_projects.scss';
 import Isotope from 'isotope-layout';
@@ -64,11 +65,11 @@ const Projects = ({color,content}) => {
             <div className="portfolio-items">
                 
                 <div className={`item ${themes[0]} ${themes[1]}`}>
-                    <a href="">
+                <NavLink className={({isActive})=> isActive ? "nav-active":""} to="/faventine-joaillerie">
                         <figure>
                             <img src={faventine} alt="Miniature Faventine Joaillerie"/>
                         </figure>
-                    </a>
+                    </NavLink>
                 </div>
 
                 <div className={`item ${themes[0]} ${themes[1]} ${themes[2]} ${themes[3]}`}>
@@ -80,11 +81,9 @@ const Projects = ({color,content}) => {
                 </div>
 
                 <div className={`item ${themes[2]}`}>
-                    <a href="">
                         <figure>
                             <img src={etapesPrint} alt="Miniature Etapes Print"/>
                         </figure>
-                    </a>
                 </div>
                 <div className={`item ${themes[0]}`}>
                     <a href="">

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import Contact from '../components/Contact';
 import Cv from '../components/Cv';
@@ -38,10 +38,11 @@ const Home = () => {
     const handleClickLanguage = (e)=>{
         e.target.className==="fr"?(setLanguage(0)):(setLanguage(1));
     }
+
+    useEffect(()=>{
+        // window.onload()
+    })
     
-
-
-
 
 
     return (
@@ -68,15 +69,15 @@ const Home = () => {
                 <Profile darkMode={darkMode} color={color} content={profile}/>  
 
                 {/* PROJECTS */}
-                <Title text={navigation.projects} color={color}/>
+                <Title text={navigation.projects} color={color} underLines="8681D5"/>
                 <Projects color={color} content={projects}/>
 
                 {/* CV */}
-                <Title text={navigation.aboutMe} color={color}/>
+                <Title text={navigation.aboutMe} color={color} underLines="8681D5"/>
                 <Cv color={color} experiences={experiences} educations={educations} skills={skills}/>
 
                 {/* CONTACT */}
-                <Title text={navigation.contact} color={color}/>
+                <Title text={navigation.contact} color={color} underLines="8681D5"/>
                 <Contact color={color} content={contact}/>
 
 

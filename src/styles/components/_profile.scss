@@ -15,13 +15,16 @@
     p{
         font-weight: 300;
     }
-    .button-container p{
-            text-transform: uppercase;
-            font-weight: 400;
-            color:$dark-purple;
-            margin-bottom:-15px;
-        
-    }
+    .button-container{
+        cursor: pointer;
+        p{
+                text-transform: uppercase;
+                font-weight: 400;
+                color:$dark-purple;
+                margin-bottom:-15px;
+            
+        }
+    } 
 }
 
 

@@ -5,9 +5,11 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
+    flex-direction: column;
     .navigation-list{
+        flex-direction: column;
+        align-items: center;
         display:flex;
-        justify-content:space-between;
         flex:2;
         .logo{
             width:171px;
@@ -25,5 +27,15 @@
     .language , .moon{
         margin:0 10px;
         cursor: pointer;
+    }
+}
+
+@media screen and (min-width:720px){
+    .navigation{
+        flex-direction: row;
+        .navigation-list{
+            flex-direction: row;
+            justify-content: space-between;
+        }
     }
 }
