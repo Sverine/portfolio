@@ -76,11 +76,10 @@ const ZerosixPage = () => {
         <div className='zerosix'>
             <div className="container isPage">
 
-                <NavLink to="/" className="min-logo">
-                    <MinLogo color="white"/>
-                </NavLink>
-
                 <header>
+                    <NavLink to="/" className="min-logo">
+                        <MinLogo color="white"/>
+                    </NavLink>
                     <img src={header} alt="Header ZEROSIX"/>
                 </header>
 
@@ -247,7 +246,7 @@ const ZerosixPage = () => {
 
                 </section>
 
-                <FooterPages leftLink="faventine-joaillerie" rightLink=""/>
+                <FooterPages leftLink="faventine-joaillerie" rightLink="etapes-print"/>
 
 
             </div>

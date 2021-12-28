@@ -1,0 +1,48 @@
+@import "../settings.scss";
+
+.etapes-print{
+    header{
+        background-color: #383734;
+        min-height: 250px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        figure{
+            width:80%;
+            max-width: 300px;
+            margin:0 auto;
+        }
+    }
+    p{text-align: center;}
+    .intro, .screens{
+        margin:50px 0;
+        padding:0 20px;
+        .homepage{margin:30px 20px 0 20px;}
+        .landing{
+            margin:50px 0;
+            width:80%;
+            max-width:950px;
+        }
+    }
+    .newsletters{
+        margin:50px 0;
+        .newsletter{
+            @include flex-column;
+            figure{
+                max-width: 450px;
+                margin:0 20px;
+            }
+        }
+    } 
+}
+
+@media screen and (min-width:500px){
+    .etapes-print{
+        .newsletters .newsletter{
+            flex-direction: row !important;
+            flex-wrap: wrap;
+            figure{margin: 20px}
+        }
+    }
+}

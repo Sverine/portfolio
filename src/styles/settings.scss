@@ -61,15 +61,13 @@ button{
 
 
 .container{
-    margin:0 auto;
     max-width:1440px;
-    margin:0 20px;
+    margin:0 auto;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-
+    // position: relative;
 }
 
 .navigation, .profile, .title, .projects, .cv, .contact, .footer{

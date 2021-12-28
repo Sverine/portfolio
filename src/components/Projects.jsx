@@ -81,9 +81,11 @@ const Projects = ({color,content}) => {
                 </div>
 
                 <div className={`item ${themes[2]}`}>
+                    <NavLink to="/etapes-print">
                         <figure>
                             <img src={etapesPrint} alt="Miniature Etapes Print"/>
                         </figure>
+                    </NavLink>
                 </div>
                 <div className={`item ${themes[0]}`}>
                     <a href="">

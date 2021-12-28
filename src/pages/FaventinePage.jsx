@@ -31,11 +31,11 @@ const FaventinePage = () => {
     return (
         <div className='faventine'>
             <div className="container isPage">
-                <NavLink to="/" className="min-logo">
-                    <MinLogo color="white"/>
-                </NavLink>
                 <header>
-                    <img src={header} alt="Main portant un solitaire en diamant"/>
+                    <NavLink to="/" className="min-logo">
+                        <MinLogo color="white"/>
+                    </NavLink>
+                    <img className="header-bg" src={header} alt="Main portant un solitaire en diamant"/>
                     <img className="logo" src={logo} alt="Logo Faventine Joaillerie"/>
                 </header>
 
