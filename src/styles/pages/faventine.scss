@@ -1,0 +1,117 @@
+.faventine {
+    header{
+        .logo{
+            position: absolute;
+            top:15px;
+            left:50%;
+            transform:translateX(-50%);
+            width:100px;
+            max-width:200px;
+        }
+    }
+    .intro{
+        margin:20px 0 50px;
+        max-width:1000px;
+        button{
+            margin-top:20px;
+            background-color: #207A80;
+            
+            &:hover{background-color: #3f9197;}
+        }
+    }
+    .personas{
+        figure{max-width:741px;}
+    }
+    .identity{
+        padding:0;
+        width:100%;
+        figure.packaging-img{width:100%;}
+        >div{
+            display:flex;
+            align-items: center;
+            &.identity-img, &.visual-elements, &.icons {
+                flex-direction: column;
+                figure{margin:20px 0;}
+            }
+            &.identity-img figure:first-child, &.icons figure{max-width:200px;}
+            
+            &.gems-icons {
+                display:flex;
+                flex-direction: column;
+                margin-top:50px;
+
+                .top, .bottom{
+                    display:flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    
+                    figure img{
+                        min-height:37px;
+                        max-height:37px;
+                        margin:5px 10px;
+                    }
+                }
+            }
+            &.emails-icons{margin-top:20px;}
+        }
+    }
+    .interfaces{
+        margin-top:20px;
+        .screens{
+            position: relative;
+            .product-arrow , .work-arrow{
+                position: absolute;
+                width:150px;
+            }
+            .product-arrow{
+                right:12%;
+                top:25%;
+            }
+            .work-arrow{
+                left:8%;
+                bottom:25%;
+            }
+        }
+    }
+    p{text-align: center;}
+    h3{
+        margin-top:40px;
+        font-size:16px;
+    }
+    button{
+        margin-top:20px;
+        background-color: #207A80;
+        
+        &:hover{background-color: #3f9197;}
+    }
+}
+
+@media screen and (min-width:500px){
+    .faventine {
+        header{
+            margin-top:-15%;
+            .logo{
+                width:100px;
+            }
+        }
+        .identity {
+            .identity-img, .visual-elements, .icons{
+                flex-direction:row !important;
+                figure{
+                    margin:0 20px !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:800px){
+    .faventine{
+        header{
+            .logo{
+                width:200px;
+                top:20px;
+            }
+        }
+    }
+}

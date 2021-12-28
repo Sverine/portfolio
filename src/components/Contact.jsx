@@ -111,7 +111,9 @@ const Contact = ({color,content}) => {
 
                 <button type="submit" value="Send" className='button-form'>
                     <span>{content.button}</span>
-                    <img src={paperPlane} alt="icon of paper plane"/>
+                    <figure>
+                        <img src={paperPlane} alt="icon of paper plane"/>
+                    </figure>
                 </button>
             </form>
         </div>

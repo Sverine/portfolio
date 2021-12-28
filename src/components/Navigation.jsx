@@ -41,14 +41,14 @@ const Navigation = ({color, content}) => {
     },[scrollTo])
 
     return (
-        <div className='navigation-list'>
+        <nav className='navigation-list'>
             <Logo color1={color} color2="#6862CA"/>
             <ul style={{color:color}}>
                 <li className='projects-list' onClick={handleClick}>{content.projects}</li>
                 <li onClick={handleClick} className='about-list'>{content.aboutMe}</li>
                 <li onClick={handleClick} className='contact-list'>{content.contact}</li>
             </ul>
-        </div>
+        </nav>
     );
 };
 

@@ -22,6 +22,15 @@ const Profile = ({darkMode, color, content}) => {
         setTimeout(showSlides,4000)
     }
 
+    const handleClick = ()=>{
+        let projectsHeight= document.querySelector(".projects").offsetTop;
+        window.scrollBy({
+            top: projectsHeight,
+            left: 0,
+            behavior: 'smooth'
+        });
+    }
+
 
     useEffect(()=>{
         showSlides();
@@ -45,7 +54,7 @@ const Profile = ({darkMode, color, content}) => {
                 <p>{content.secondIntro}</p>
             </div>
 
-            <div className="button-container">
+            <div className="button-container" onClick={handleClick}>
                 <p style={{color:darkMode?"#8681D5":"#302A8B"}} className='my-projects'>{content.button}</p>
                 <figure className='arrow-animation'>
                     <svg width="30" height="38" viewBox="0 0 17 25" fill="none" xmlns="http://www.w3.org/2000/svg">

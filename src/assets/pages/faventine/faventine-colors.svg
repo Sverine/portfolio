@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="129px" height="135px" viewBox="0 0 129 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Projets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Faventine-Joaillerie" transform="translate(-653.000000, -1639.000000)">
+            <g id="Group" transform="translate(653.000000, 1639.000000)">
+                <rect id="Rectangle" fill="#F5F0EF" x="0" y="0" width="129" height="62"></rect>
+                <text id="#F5F0EF" font-family="Montserrat-Medium, Montserrat" font-size="13" font-weight="400" fill="#333333">
+                    <tspan x="10" y="49">#F5F0EF</tspan>
+                </text>
+                <rect id="Rectangle" fill="#207A80" x="0" y="73" width="128" height="62"></rect>
+                <text id="#207A80" font-family="Montserrat-Medium, Montserrat" font-size="13" font-weight="400" fill="#FFFFFF">
+                    <tspan x="10" y="122">#207A80</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

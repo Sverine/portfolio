@@ -6,11 +6,23 @@
     background-image: url('../../assets/bg-lines.svg');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position-y: 90%;
+    background-position-y: 93%;
     .container{
         margin:0 auto;
         max-width:1440px;
-        padding:0 50px;
+        padding:0 20px;
         @include flex-column;
+    }
+}
+
+@media screen and (min-width:720px){
+    .home{
+        background-position-y: 90%;
+    }
+}
+
+@media screen and (min-width:500px){
+    .home .container{
+        padding:0 50px;
     }
 }

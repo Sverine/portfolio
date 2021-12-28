@@ -1,4 +1,4 @@
-@import "../settings.scss";
+    @import "../settings.scss";
 
 .projects{
     width:100%;
@@ -37,10 +37,11 @@
         margin:0 auto;
         cursor:pointer;
 
-        >div{
+        .item{
             margin:10px;
             max-width:287px;
-
+            overflow: hidden;
+            
             figure{
                 margin:0;
                 width:287px;
@@ -48,6 +49,13 @@
 
                 img{
                     width:100%;
+                    transition-property: transform;
+                    transition: 0.3s ease-out;
+
+                    &:hover{
+                        transform:scale(1.03);
+                        overflow: hidden;
+                    }
                 }
             }
         }

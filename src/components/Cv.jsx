@@ -29,7 +29,9 @@ const Cv = ({color, experiences,educations,skills}) => {
             <div className="experiences">
                 <div className="title">
                     <h3 style={{color:color}}>Expériences</h3>
-                    <img src={titleUnderline} alt="underline title"/>
+                    <figure>
+                        <img src={titleUnderline} alt="underline title"/>
+                    </figure>
 
                 </div>
 
@@ -46,7 +48,9 @@ const Cv = ({color, experiences,educations,skills}) => {
             <div className="educations">
                 <div className="title">
                     <h3 style={{color:color}}>Formations</h3>
-                    <img src={titleUnderline} alt="underline title"/>
+                    <figure>
+                        <img src={titleUnderline} alt="underline title"/>
+                    </figure>
 
                 </div>
                 <ul>
@@ -62,7 +66,9 @@ const Cv = ({color, experiences,educations,skills}) => {
             <div className="skills">
                 <div className="title">
                     <h3 style={{color:color}}>Compétences</h3>
-                    <img src={titleUnderline} alt="underline title"/>
+                    <figure>
+                        <img src={titleUnderline} alt="underline title"/>
+                    </figure>
                 </div>
                 
                 <ul>
