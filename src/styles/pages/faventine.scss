@@ -1,5 +1,8 @@
+@import "../settings.scss";
+
 .faventine {
     header{
+        position: relative;
         .logo{
             position: absolute;
             top:15px;
@@ -89,7 +92,7 @@
 @media screen and (min-width:500px){
     .faventine {
         header{
-            margin-top:-15%;
+            .header-bg{margin-top:-15%;}
             .logo{
                 width:100px;
             }
