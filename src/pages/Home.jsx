@@ -44,8 +44,9 @@ const Home = () => {
     })
     
 
-
+    window.scrollTo({ top: 0 });
     return (
+        
         <div className='home' 
             style={{backgroundColor:darkMode?"#191649":"white"}}>
             <div className='container'>

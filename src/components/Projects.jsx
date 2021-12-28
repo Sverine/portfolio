@@ -65,7 +65,7 @@ const Projects = ({color,content}) => {
             <div className="portfolio-items">
                 
                 <div className={`item ${themes[0]} ${themes[1]}`}>
-                <NavLink className={({isActive})=> isActive ? "nav-active":""} to="/faventine-joaillerie">
+                <NavLink to="/faventine-joaillerie">
                         <figure>
                             <img src={faventine} alt="Miniature Faventine Joaillerie"/>
                         </figure>
@@ -73,11 +73,11 @@ const Projects = ({color,content}) => {
                 </div>
 
                 <div className={`item ${themes[0]} ${themes[1]} ${themes[2]} ${themes[3]}`}>
-                    <a href="">
+                <NavLink to="/zerosix">
                         <figure>
                             <img src={zerosix} alt="Miniature ZEROSIX"/>
                         </figure>
-                    </a>
+                    </NavLink>
                 </div>
 
                 <div className={`item ${themes[2]}`}>

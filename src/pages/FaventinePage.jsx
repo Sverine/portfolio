@@ -27,6 +27,7 @@ import productArrow from '../assets/pages/faventine/products-page.svg';
 import workArrow from '../assets/pages/faventine/work-page.svg';
 
 const FaventinePage = () => {
+    window.scrollTo({ top: 0 });
     return (
         <div className='faventine'>
             <div className="container isPage">
@@ -44,9 +45,7 @@ const FaventinePage = () => {
                     <p>Conçue et imaginée avec un gemmologue, la marque propose une vingtaine de pierres fines et précieuses. Cette spécialité permet la découverte de merveilleuses gemmes souvent moins connues du grand public.</p>
                     <p>Ces valeurs ont permis la création de l’identité graphique de la marque, la conception des éléments de communication et de packaging et enfin l’intégration web de la solution de personnalisation à travers une interface adaptée aux utilisateurs préalablement définis (personas).</p>
                     <button>
-                        <NavLink to="/">
-                            visiter le site
-                        </NavLink>
+                        <a href="https://www.faventine-joaillerie.com">Visiter le site</a>
                     </button>
                 </section>
 
@@ -144,8 +143,8 @@ const FaventinePage = () => {
                     </div>
                 </section>
 
-                <FooterPages leftLink="" rightLink=""/>
-
+                <FooterPages leftLink="" rightLink="zerosix"/>
+                
             </div>
         </div>
     );

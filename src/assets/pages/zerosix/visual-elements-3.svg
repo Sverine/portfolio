@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="335px" height="67px" viewBox="0 0 335 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>Group 24</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Projets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ZEROSIX" transform="translate(-536.000000, -1974.000000)">
+            <g id="Group-24" transform="translate(537.000000, 1975.000000)">
+                <rect id="Rectangle" fill="#E74C3C" x="6" y="3" width="321" height="56"></rect>
+                <text id="Button" font-family="Lato-Regular, Lato" font-size="20" font-weight="normal" letter-spacing="-0.125" fill="#FFFFFF">
+                    <tspan x="136.765" y="37">Button</tspan>
+                </text>
+                <polygon id="Path-11" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" points="6 3 327 0 333 65 7.998329 59.0353045"></polygon>
+                <polygon id="Path-11" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" transform="translate(163.500000, 31.000000) scale(-1, -1) translate(-163.500000, -31.000000) " points="0 8.60422844e-16 320.731804 0 327 62 1.998329 56.0353045"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
