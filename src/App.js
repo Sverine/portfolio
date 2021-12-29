@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import ZerosixPage from './pages/ZerosixPage';
 import EtapesPrintPage from './pages/EtapesPrintPage';
 import CourrierPlusPage from './pages/CourrierPlusPage';
+import FiaacPage from './pages/FiaacPage';
 
 
 const App =()=> {
@@ -17,6 +18,7 @@ const App =()=> {
         <Route path="/zerosix" element={<ZerosixPage/>}/>
         <Route path="/etapes-print" element={<EtapesPrintPage/>}/>
         <Route path="/courrier-plus" element={<CourrierPlusPage/>}/>
+        <Route path="/fiaac" element={<FiaacPage/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
     </Router>

@@ -50,7 +50,7 @@ const CourrierPlusPage = () => {
                         <MinLogo color="white"/>
                     </NavLink>
                     <figure>
-                        <img src={logo} alt="Logo Etapes Print"/>
+                        <img src={logo} alt="Logo Courrier +"/>
                     </figure>
                 </header>
 
@@ -111,7 +111,7 @@ const CourrierPlusPage = () => {
                     </div>
                 </section>
 
-                <FooterPages leftLink="etapes-print" rightLink=""/>
+                <FooterPages leftLink="etapes-print" rightLink="fiaac"/>
 
             </div>
             

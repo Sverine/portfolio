@@ -111,11 +111,11 @@ const Projects = ({color,content}) => {
                     </a>
                 </div>
                 <div className={`item ${themes[2]}`}>
-                    <a href="">
+                    <NavLink to="/fiaac">
                         <figure>
                             <img src={fiaac} alt="Miniature FIAAC"/>
                         </figure>
-                    </a>
+                    </NavLink>
                 </div>
 
                 <div className={`item ${themes[0]} ${themes[1]} ${themes[2]} ${themes[3]}`}>
