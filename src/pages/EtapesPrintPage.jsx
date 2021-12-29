@@ -68,7 +68,7 @@ const EtapesPrintPage = () => {
                     <p>Newsletters réalisées sur Mailjet</p>
                 </section>
 
-                <FooterPages leftLink="zerosix" rightLink=""/>
+                <FooterPages leftLink="zerosix" rightLink="courrier-plus"/>
 
             </div>
         </div>
