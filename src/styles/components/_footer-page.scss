@@ -1,0 +1,28 @@
+@import "../settings.scss";
+
+.footer-pages{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    margin:20px 0;
+    a{margin:10px}
+
+    .button{
+        min-width: 120px;
+        display:flex;
+        justify-content: center;
+        button{
+            background-color: $dark-purple;
+            width:100%;
+            margin-top:0;
+        }
+    }
+}
+
+@media screen and (min-width:500px){
+    .footer-pages{
+        flex-direction: row !important;
+    }
+}

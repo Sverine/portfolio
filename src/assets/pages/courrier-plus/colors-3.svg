@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 128 62" style="enable-background:new 0 0 128 62;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st2{fill:none;}
+	.st3{clip-path:url(#SVGID_4_);}
+	.st4{clip-path:url(#SVGID_6_);enable-background:new    ;}
+	.st5{clip-path:url(#SVGID_8_);}
+	.st6{clip-path:url(#SVGID_12_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st7{clip-path:url(#SVGID_14_);fill:#FFFFFF;}
+	.st8{clip-path:url(#SVGID_16_);}
+	.st9{clip-path:url(#SVGID_18_);fill:#008699;}
+	.st10{clip-path:url(#SVGID_28_);}
+	.st11{clip-path:url(#SVGID_30_);fill:#207A80;}
+	.st12{clip-path:url(#SVGID_34_);}
+	.st13{clip-path:url(#SVGID_36_);fill:#207A80;}
+	.st14{clip-path:url(#SVGID_38_);}
+	.st15{clip-path:url(#SVGID_40_);enable-background:new    ;}
+	.st16{clip-path:url(#SVGID_42_);}
+	.st17{clip-path:url(#SVGID_44_);}
+	.st18{clip-path:url(#SVGID_46_);fill:#207A80;}
+	.st19{clip-path:url(#SVGID_48_);}
+	.st20{clip-path:url(#SVGID_50_);fill:#207A80;}
+	.st21{clip-path:url(#SVGID_52_);}
+	.st22{clip-path:url(#SVGID_54_);enable-background:new    ;}
+	.st23{clip-path:url(#SVGID_56_);}
+	.st24{clip-path:url(#SVGID_58_);}
+	.st25{clip-path:url(#SVGID_60_);fill:#207A80;}
+	.st26{clip-path:url(#SVGID_66_);}
+	.st27{clip-path:url(#SVGID_116_);}
+	.st28{clip-path:url(#SVGID_118_);fill:#F1B300;}
+	.st29{clip-path:url(#SVGID_120_);}
+	.st30{clip-path:url(#SVGID_122_);fill:#008699;}
+	.st31{clip-path:url(#SVGID_124_);}
+	.st32{clip-path:url(#SVGID_126_);fill:#014F66;}
+	.st33{clip-path:url(#SVGID_144_);}
+	.st34{clip-path:url(#SVGID_162_);}
+	.st35{clip-path:url(#SVGID_164_);fill:#F1B300;}
+	.st36{clip-path:url(#SVGID_166_);}
+	.st37{clip-path:url(#SVGID_168_);fill:#008699;}
+	.st38{clip-path:url(#SVGID_170_);}
+	.st39{clip-path:url(#SVGID_172_);fill:#014F66;}
+	.st40{font-family:'Montserrat-Medium';}
+	.st41{font-size:13px;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_161_" x="19.26" y="220.9" width="129" height="62"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_161_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_2_);">
+		<defs>
+			<rect id="SVGID_163_" x="-491.74" y="-1196.1" width="1440" height="4735"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_163_"  style="overflow:visible;"/>
+		</clipPath>
+	</g>
+</g>
+<g>
+	<g>
+		<defs>
+			<rect id="SVGID_165_" x="18.61" y="98.83" width="128" height="62"/>
+		</defs>
+		<clipPath id="SVGID_6_">
+			<use xlink:href="#SVGID_165_"  style="overflow:visible;"/>
+		</clipPath>
+		<g style="clip-path:url(#SVGID_6_);">
+			<defs>
+				<rect id="SVGID_167_" x="-638.39" y="-1318.17" width="1440" height="4735"/>
+			</defs>
+			<clipPath id="SVGID_8_">
+				<use xlink:href="#SVGID_167_"  style="overflow:visible;"/>
+			</clipPath>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<defs>
+			<rect id="SVGID_169_" width="128" height="62"/>
+		</defs>
+		<clipPath id="SVGID_10_">
+			<use xlink:href="#SVGID_169_"  style="overflow:visible;"/>
+		</clipPath>
+		<g style="clip-path:url(#SVGID_10_);">
+			<defs>
+				<rect id="SVGID_171_" x="-802" y="-1417" width="1440" height="4735"/>
+			</defs>
+			<clipPath id="SVGID_12_">
+				<use xlink:href="#SVGID_171_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect x="-5" y="-5" style="clip-path:url(#SVGID_12_);fill:#014F66;" width="138" height="72"/>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 9.9999 49)" class="st0 st40 st41">#014F66</text>
+</g>
+</svg>

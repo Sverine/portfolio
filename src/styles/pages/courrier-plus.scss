@@ -1,0 +1,100 @@
+@import "../settings.scss";
+
+.courrier-plus{
+    header{
+        background-color: #1C8699;
+        height: 350px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        figure{
+            width:70%;
+            max-width: 250px;
+            margin:0 auto;
+            position:absolute;
+            top:10%;
+        }
+    }
+    .intro {
+        margin-top:20%;
+        padding:0;
+        p{
+            text-align: center; 
+            padding:0 20px;
+            max-width: 900px;
+        }
+    }
+    .identity{
+        padding:0;
+        .logo-container{
+            position: relative;
+            figure{max-width: 200px;}
+            .logo-keeped{
+                position:absolute;
+                display: none;
+            }
+        }
+        .logos-container{margin-top:40px;}
+        .logos-container, .colors-container{
+            @include flex-column;
+            figure{
+                max-width: 150px;
+                margin:10px;
+            }
+        }
+        .icons{
+            max-width:350px;
+            width:80%;
+        }
+    }
+    .interfaces{
+        margin:50px 0;
+        .interfaces-container{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width:1000px;
+            margin-top:50px;
+            figure{
+                max-width:250px;
+                margin:10px;
+            }
+        }
+    }
+    .stores{
+        margin:20px 0 80px;
+        p{
+            text-align: center;
+            padding:0 20px;
+        }
+        .stores-container{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            figure{
+                max-width:250px;
+                box-shadow: 0px 0px 14px 5px rgba(0,0,0,0.1);
+                border-radius: 5px;
+                margin:20px;
+            }
+        }
+    }
+}
+
+//MEDIA QUERIES
+@media screen and (min-width:500px){
+    .courrier-plus{
+        .intro{margin-top:15%;}
+    }
+}
+
+@media screen and (min-width:1000px){
+    .courrier-plus{
+        .intro{margin-top:10%;}
+        .logos-container, .colors-container{
+            flex-direction: row !important;
+            align-items: flex-end !important;
+        }
+    }
+}

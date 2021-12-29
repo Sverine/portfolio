@@ -88,11 +88,11 @@ const Projects = ({color,content}) => {
                     </NavLink>
                 </div>
                 <div className={`item ${themes[0]}`}>
-                    <a href="">
+                    <NavLink to="/courrier-plus">
                         <figure>
                             <img src={laposte} alt="Miniature La Poste"/>
                         </figure>
-                    </a>
+                    </NavLink>
                 </div>
 
                 <div className={`item ${themes[0]} ${themes[2]}`}>
@@ -111,11 +111,11 @@ const Projects = ({color,content}) => {
                     </a>
                 </div>
                 <div className={`item ${themes[2]}`}>
-                    <a href="">
+                    <NavLink to="/fiaac">
                         <figure>
                             <img src={fiaac} alt="Miniature FIAAC"/>
                         </figure>
-                    </a>
+                    </NavLink>
                 </div>
 
                 <div className={`item ${themes[0]} ${themes[1]} ${themes[2]} ${themes[3]}`}>

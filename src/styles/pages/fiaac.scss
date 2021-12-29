@@ -1,0 +1,51 @@
+@import "../settings.scss";
+
+.fiaac{
+   header{
+       position: relative;
+       figure:last-child{
+        position:absolute;
+        top:20%;
+        left:50%;
+        transform:translateX(-50%);
+        max-width:100px;
+       }
+   }
+   .intro{
+       p{
+            padding:0 20px;
+            text-align: center;
+            max-width:900px;
+        }
+   }
+   .identity{
+       .logos-container  , .colors-container{
+           display:flex;
+           flex-wrap: wrap;
+           justify-content: center;
+           figure{margin:20px}
+       }
+       .draft{
+           width:80%;
+           max-width: 500px;
+       }
+   }
+   .identity .colors-container, .posters figure, .facebook figure{
+       width:80%;
+       max-width:800px;
+    }
+
+   .identity, .posters, .facebook{
+       margin:50px 0;
+   }
+}
+
+@media screen and (min-width:1000px){
+    .fiaac{
+        header{
+            figure:first-of-type{
+                margin-top:-20%;
+            }
+        }
+    }
+}
