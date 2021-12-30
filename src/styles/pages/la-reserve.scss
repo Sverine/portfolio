@@ -1,0 +1,121 @@
+@import "../settings.scss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+.la-reserve{
+   header{
+       position: relative;
+       figure:last-child{
+        position:absolute;
+        top:20%;
+        left:50%;
+        transform:translateX(-50%);
+        width:50px;
+       }
+   }
+   .intro{
+    p{
+         padding:0 20px;
+         text-align: center;
+         max-width:900px;
+    }
+    button{
+        margin-top:20px;
+        background-color: #33306F;
+        
+        &:hover{background-color: #474392;}
+        }
+    }
+    .personas{
+        p{
+            max-width:800px;
+        }
+        .personas-container{
+            @include flex-column;
+            figure{
+                width:80%;
+                max-width: 800px;
+            }
+        }
+    }
+    .identity{
+        .identity-container{
+            @include flex-column;
+            width:80%;
+            figure{
+                margin:20px;
+                &:first-of-type{
+                    width:100px;
+                }
+                &:last-child{max-width:400px}
+            }
+        }
+        .typed-container{
+            margin:20px 0;
+            width:100%;
+            max-width:1000px;
+            min-height: 280px;
+            background-size: cover;
+            @include flex-column;
+            p, span{
+                color:white;
+                font-family: 'Playfair Display', serif;
+                font-size:35px;
+                margin:0;
+                .typed-cursor{
+                    color:#8887B9;
+                }
+            }
+            button{
+                margin-top:20px;
+                background-color: #8887B9;
+                cursor:default;
+            }
+        }
+        .visuals-container, .lotties-container{
+            @include flex-column;
+            figure{
+                margin:20px;
+                &:first-of-type{max-width:190px}
+                &:last-child{max-width:250px}
+            }
+        }
+    }
+    .identity .icons, .interfaces{
+        width:80%;
+    }
+    section{margin:50px 0;}
+    p{text-align: center;}
+}
+
+@media screen and (min-width:1000px){
+    .la-reserve{
+        header{
+            figure{
+                &:last-child{width:100px}
+                &:first-of-type{margin-top:-5%;}
+            }
+        }
+        .identity{
+            .identity-container{
+                flex-direction: row !important;
+                figure{
+                    &:first-of-type{width:150px}
+                }
+            }
+            .visuals-container, .lotties-container{
+                flex-direction: row !important;
+                justify-content: space-evenly;
+                width:50%;
+            }
+            .icons{max-width: 320px;}
+        }
+        .interfaces{
+            p{margin-top:0}
+            figure{
+                margin-bottom:0;
+                width:80%;
+                max-width:1000px;
+            }
+        }
+    }
+}

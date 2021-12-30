@@ -12,7 +12,7 @@ import eggShot from '../assets/projects-img/egg-shot-item-img.jpeg';
 import leBonCoin from '../assets/projects-img/leboncoin-item-img.jpeg';
 import fiaac from '../assets/projects-img/fiaac-item-img.jpeg';
 import muchosTacos from '../assets/projects-img/muchos-tacos-item-img.jpeg';
-import laGrandeVache from '../assets/projects-img/la-grande-vache-item-img.jpeg';
+import laReserveDeLaChapelle from '../assets/projects-img/la-reserve-de-la-chapelle-item-img.jpg';
 
 const Projects = ({color,content}) => {
 
@@ -80,6 +80,14 @@ const Projects = ({color,content}) => {
                     </NavLink>
                 </div>
 
+                <div className={`item ${themes[0]} ${themes[1]}`}>
+                    <NavLink to="/la-reserve-de-la-chapelle">
+                        <figure>
+                            <img src={laReserveDeLaChapelle} alt="Miniature La Réserve de la Chapelle"/>
+                        </figure>
+                    </NavLink>
+                </div>
+
                 <div className={`item ${themes[2]}`}>
                     <NavLink to="/etapes-print">
                         <figure>
@@ -122,14 +130,6 @@ const Projects = ({color,content}) => {
                     <a href="">
                         <figure>
                             <img src={muchosTacos} alt="Miniature Muchos Tacos"/>
-                        </figure>
-                    </a>
-                </div>
-
-                <div className={`item ${themes[2]}`}>
-                    <a href="">
-                        <figure>
-                            <img src={laGrandeVache} alt="Miniature La Grande Vache"/>
                         </figure>
                     </a>
                 </div>

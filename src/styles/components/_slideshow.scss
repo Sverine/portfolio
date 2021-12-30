@@ -1,0 +1,13 @@
+.slideshow{
+    margin:0 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    >figure{
+        width:15px !important;
+        cursor:pointer;
+    }
+    .slideshow-container{
+        figure{margin:0 auto;}
+    }
+}
