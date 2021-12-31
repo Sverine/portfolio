@@ -104,19 +104,17 @@ const Projects = ({color,content}) => {
                 </div>
 
                 <div className={`item ${themes[0]} ${themes[2]}`}>
-                    <a href="">
                         <figure>
                             <img src={eggShot} alt="Miniature EggShot"/>
                         </figure>
-                    </a>
                 </div>
 
                 <div className={`item ${themes[0]}`}>
-                    <a href="">
+                    <NavLink to="/le-boncoin">
                         <figure>
                             <img src={leBonCoin} alt="Miniature Leboncoin"/>
                         </figure>
-                    </a>
+                    </NavLink>
                 </div>
                 <div className={`item ${themes[2]}`}>
                     <NavLink to="/fiaac">
@@ -127,11 +125,9 @@ const Projects = ({color,content}) => {
                 </div>
 
                 <div className={`item ${themes[0]} ${themes[1]} ${themes[2]} ${themes[3]}`}>
-                    <a href="">
                         <figure>
                             <img src={muchosTacos} alt="Miniature Muchos Tacos"/>
                         </figure>
-                    </a>
                 </div>
 
             </div>

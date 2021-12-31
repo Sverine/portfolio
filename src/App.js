@@ -8,6 +8,7 @@ import EtapesPrintPage from './pages/EtapesPrintPage';
 import CourrierPlusPage from './pages/CourrierPlusPage';
 import FiaacPage from './pages/FiaacPage';
 import LaReservePage from './pages/LaReservePage';
+import LeBoncoinPage from './pages/LeBoncoinPage';
 
 
 const App =()=> {
@@ -20,6 +21,7 @@ const App =()=> {
         <Route path="/la-reserve-de-la-chapelle" element={<LaReservePage/>}/>
         <Route path="/etapes-print" element={<EtapesPrintPage/>}/>
         <Route path="/courrier-plus" element={<CourrierPlusPage/>}/>
+        <Route path="/le-boncoin" element={<LeBoncoinPage/>}/>
         <Route path="/fiaac" element={<FiaacPage/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>

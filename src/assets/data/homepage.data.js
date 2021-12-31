@@ -8,7 +8,7 @@ const HOMEPAGE_DATA = [
             },
         "profile":
             {
-                h1:"Bonjour, je suis",
+                h1:"Salut, je suis",
                 jobs:["développeur web","UX/UI designer"],
                 firstIntro:"Diplômée d'une licence en Art Plastique (DNAP, diplôme national d’art plastique), d’un Master en Direction Artistique Webdesign et d'un diplôme de Développeur Web et Web Mobile, je suis passionnée par l'UX/UI design et l’innovation digitale",
                 secondIntro:"Mes missions principales consistent à améliorer l’expérience utilisateur à travers des méthodes d’analyse et de conception orientées utilisateur (ateliers de créativité, parcours utilisateur, wireframes, maquettes d’interfaces, prototypes…) et ainsi faire évoluer les projets vers des pratiques plus innovantes.",
