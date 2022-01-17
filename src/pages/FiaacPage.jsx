@@ -70,7 +70,7 @@ const FiaacPage = () => {
                     <figure><img src={facebook} alt="Page Facebook du festival" /></figure>
                 </section>
 
-                <FooterPages leftLink="courrier-plus" rightLink=""/>
+                <FooterPages leftLink="le-boncoin" rightLink=""/>
 
             </div>
         </div>

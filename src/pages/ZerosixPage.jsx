@@ -246,7 +246,7 @@ const ZerosixPage = () => {
 
                 </section>
 
-                <FooterPages leftLink="faventine-joaillerie" rightLink="etapes-print"/>
+                <FooterPages leftLink="faventine-joaillerie" rightLink="la-reserve-de-la-chapelle"/>
 
 
             </div>

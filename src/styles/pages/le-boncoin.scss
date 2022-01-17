@@ -1,0 +1,112 @@
+@import "../settings.scss";
+
+.le-boncoin{
+    header{
+        position: relative;
+        .visual-intro{
+            @include flex-column;
+            position:absolute;
+            top:10%;
+            left:50%;
+            transform:translateX(-50%);
+            width:80%;
+            figure{
+                width:80px;
+            }
+            p{
+                margin-top:0;
+                color:white;
+                font-size:12px;
+                text-align: center;
+            }
+        }
+    }
+    .intro{
+        p{
+             padding:0 20px;
+             text-align: center;
+             max-width:1000px;
+        }
+    }
+    .interfaces{
+        width:90%;
+        .heading{
+            font-weight:700;
+            color:#F36600;
+            text-align: center;
+        }
+        li{font-size:14px};
+        .desktop-container{
+            .homepage, .product-page{
+                @include flex-column;
+                >ul{
+                    width:80%;
+                    max-width:350px;
+                    >li{
+                        margin:5px 0;
+                    }
+                }
+                ul.features-list{
+                    margin-top:30px;
+                    padding-left:10px;
+                    border-left: solid 5px #F36600;
+                    li span{
+                        font-weight: 700;
+                    }
+                }
+            }
+            .product-page figure{
+                box-shadow: -2px -2px 15px 5px rgba(0,0,0,0.08);
+                border-radius: 10px;
+            }
+        }
+        .mobile-container{
+            @include flex-column;
+            width:90%;
+            max-width:900px;
+            li{text-align: center}
+            .homepage{
+                @include flex-column;
+                figure{width:150px}
+            }
+            .product-page figure{max-width: 405px;}
+        }
+    }
+}
+
+@media screen and (min-width:1000px){
+    .le-boncoin{
+        header .visual-intro {
+            top:20%;
+            figure{width:180px}
+            p{
+                font-size:16px;
+                margin-top:20px;
+            }
+        }
+
+        .interfaces{
+            .desktop-container{
+                .homepage, .product-page{
+                    flex-direction:row;
+                    justify-content: space-between;
+                    >ul li{
+                        &:first-child{
+                            text-align:left;
+                        }
+                    }
+                }
+                .product-page{
+                    figure{order:1;}
+                }
+            }
+            .mobile-container{
+                // >div{margin:0 20px}
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: space-between;
+                .homepage figure{width:220px}
+            }
+        }
+    }
+}
