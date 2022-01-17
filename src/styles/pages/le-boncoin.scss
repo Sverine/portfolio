@@ -89,6 +89,7 @@
             .desktop-container{
                 .homepage, .product-page{
                     flex-direction:row;
+                    justify-content: space-between;
                     >ul li{
                         &:first-child{
                             text-align:left;
