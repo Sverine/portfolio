@@ -2,7 +2,7 @@ import React from 'react';
 
 const Title = ({text, color, underLines}) => {
     return (
-        <div className='title' style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
+        <div className='title' style={{display:"flex", flexDirection:"column", alignItems:"center", marginTop:"30px"}}>
             <h2 style={{textAlign:'center', marginBottom:0, color:`${color}`}}>{text}</h2>
             <svg width="197" height="13" viewBox="0 0 197 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path 

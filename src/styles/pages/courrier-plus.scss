@@ -98,3 +98,13 @@
         }
     }
 }
+
+@media screen and (min-width:1440px){
+    .courrier-plus header{
+        height:500px !important;
+            figure{
+                max-width:320px !important;
+                margin-top:40px;
+        }
+    }
+}
