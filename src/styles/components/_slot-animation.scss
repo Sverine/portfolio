@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+.slot-animation{
+    width:100%;
+    .words{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        p{
+            font-size:35px;
+            font-family: 'Montserrat', sans-serif;
+        }
+        figure{
+            position: absolute;
+            z-index:-1;
+            max-width:150px;
+            right:20%;
+            top:40%;
+            &:first-child{
+                left:12%;
+                top:0;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:500px){
+    .slot-animation{
+        .words{
+            flex-direction: row;
+            justify-content: space-evenly;
+            figure{
+                right:12%;
+                top:-60%;
+                max-width:250px;
+                &:first-child{
+                    left:12%;
+                }
+            }
+        }
+    }
+}

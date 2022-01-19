@@ -74,7 +74,7 @@ const LaReservePage = () => {
 
                 <section className="personas column">
                     <Title text="personas" color="333333" underLines="33306F"/>
-                    <p>Charline, Yves, Vincent et Isaelle</p>
+                    <p>Charline, Yves, Vincent et Isabelle</p>
                     <div className="personas-container">
                         <Slideshow content={personas} urlTest="la-reserve/persona-"/>
                     </div>
