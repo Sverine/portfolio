@@ -104,9 +104,11 @@ const Projects = ({color,content}) => {
                 </div>
 
                 <div className={`item ${themes[0]} ${themes[2]}`}>
+                    <NavLink to="/eggshot">
                         <figure>
                             <img src={eggShot} alt="Miniature EggShot"/>
                         </figure>
+                    </NavLink>
                 </div>
 
                 <div className={`item ${themes[0]}`}>
