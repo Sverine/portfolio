@@ -37,7 +37,7 @@ const FiaacPage = () => {
                 </header>
 
                 <section className="intro column">
-                    <p>La FIAAC (festival international d’art actuel dans les chais ) est une rencontre entre artistes et vignerons dans la commune de Pouilly sur Loire située dans le département de la Nièvre en région Bourgogne-Franche-Comté.<br/>
+                    <p>Le FIAAC (festival international d’art actuel dans les chais ) est une rencontre entre artistes et vignerons dans la commune de Pouilly sur Loire située dans le département de la Nièvre en région Bourgogne-Franche-Comté.<br/>
                     A deux heures de Paris en train, le festival attire chaque année un certain nombre de visiteurs et de collectionneurs.</p>
                     <p>Dans l’objectif d’améliorer leur communication lors d’un projet d’école, nous avons formé une équipe composée d’élèves en marketing et en communication.</p>
                 </section>
@@ -70,7 +70,7 @@ const FiaacPage = () => {
                     <figure><img src={facebook} alt="Page Facebook du festival" /></figure>
                 </section>
 
-                <FooterPages leftLink="le-boncoin" rightLink=""/>
+                <FooterPages leftLink="le-boncoin" rightLink="muchos-tacos"/>
 
             </div>
         </div>

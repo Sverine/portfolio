@@ -123,7 +123,7 @@ const FaventinePage = () => {
 
                     <h3>packaging</h3>
                     <figure className="packaging-img">
-                        <img src={packaging} alt="Image des différents packaging utilisés" />
+                        <img src={packaging} alt="Différents packaging utilisés" />
                     </figure>
                     <p>Création du contenu envoyé dans la commande :<br/>Ecrin sérigraphié, carte de visite, carte de remerciement et emballage d’expédition</p>
                 </section>

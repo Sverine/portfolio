@@ -4,7 +4,6 @@ import '../styles/components/_profile.scss';
 
 const Profile = ({darkMode, color, content}) => {
 
-
     const jobsArray = content.jobs;
 
 
@@ -34,7 +33,7 @@ const Profile = ({darkMode, color, content}) => {
 
     useEffect(()=>{
         showSlides();
-    },[jobsArray])
+    })
     
     return (
         <div className='profile'> 
@@ -47,7 +46,7 @@ const Profile = ({darkMode, color, content}) => {
                     ))}
             </h1>
             <figure>
-                <img src="https://via.placeholder.com/300" alt="image de Séverine Sylvan"/>
+                <img src="https://via.placeholder.com/300" alt="profil"/>
             </figure>
             <div style={{color:color}}>
                 <p>{content.firstIntro}</p>

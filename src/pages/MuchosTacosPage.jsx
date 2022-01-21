@@ -51,12 +51,12 @@ const MuchosTacosPage = () => {
                     <p>Muchos Tacos est un projet de création de marque de skateboard.</p>
                     <p>Cette idée est issue d’un voyage d’un an en Australie et constitue aujourd’hui un véritable challenge. 
 Férue de sport, c’est en longeant toute la côte Est de ce vaste pays que j’ai découvert cette culture du skateboard.</p>
-                    <p>Mélangé avec une dose d’humour et mon engouement pour la culture mexicaine, je souhaiterai créer Muchos Tacos, une marque de skateboards entièrement peints à la main et aux designs aléatoires.</p>
+                    <p>Mélangé avec une dose d’humour et mon engouement pour la culture mexicaine, je souhaiterais créer Muchos Tacos, une marque de skateboards entièrement peints à la main et aux designs arbitraires.</p>
                     <svg width="249" height="7" viewBox="0 0 249 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1.44294 6.6012C83.4429 7.11454 165.443 5.91454 247.443 3.00121C249.363 2.93121 249.373 -0.0687939 247.443 0.00120611C165.443 2.90787 83.4429 4.10787 1.44294 3.6012C1.24793 3.59522 1.05381 3.63006 0.873057 3.7035C0.692301 3.77693 0.528907 3.88734 0.393321 4.02763C0.257735 4.16793 0.152928 4.33501 0.0857039 4.51817C0.0184794 4.70132 -0.00969395 4.89651 0.00294026 5.0912C-0.00800749 5.28646 0.0212387 5.48189 0.0888167 5.66541C0.156395 5.84892 0.260859 6.01662 0.395824 6.15815C0.530788 6.29968 0.693381 6.41201 0.873485 6.48822C1.05359 6.56443 1.24739 6.60288 1.44294 6.6012Z" fill="#FFA401"/>
                     </svg>
-                    <p>Pour imaginer un e-commerce innovant, j’ai souhaiterais intégrer une méthode de choix d’illustration aléatoire en utilisant une animation de type machine à sous faisant naître une association de 3 mots.</p>
-                    <p>Ce “cadavre exquis” deviendra le futur thème de la planche du visiteur. Si celui-ci décide de l’acheter, il ne connaitra pas à l’avance le résultat final et devra patienter jusqu’a réception du skateboard.</p>
+                    <p>Pour imaginer un e-commerce innovant, j’ai souhaité intégrer une méthode de choix d’illustration aléatoire en utilisant une animation de type machine à sous faisant naître une association de 3 mots.</p>
+                    <p>Ce “cadavre exquis” deviendra le futur thème de la planche du visiteur. Si celui-ci décide de l’acheter, il ne connaîtra pas à l’avance le résultat final et devra patienter jusqu’à réception du skateboard.</p>
                 </section>
 
                 <section className="identity column">
@@ -102,7 +102,7 @@ Férue de sport, c’est en longeant toute la côte Est de ce vaste pays que j�
 
                 <section className="boards column">
                     <Title text="Planches" color="333333" underLines="FFA401"/>
-                    <h3>Déja réalisées</h3>
+                    <h3>Déjà réalisées</h3>
                     <div className="boards-container">
                         <figure><img src={board1} alt="Plusieurs planches de skate" /></figure>
                         <figure><img src={board2} alt="Planche Cactus" /></figure>
