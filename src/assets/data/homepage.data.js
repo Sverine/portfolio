@@ -10,7 +10,7 @@ const HOMEPAGE_DATA = [
             {
                 h1:"Salut, je suis",
                 jobs:["développeur web","UX/UI designer"],
-                firstIntro:"Diplômée d'une licence en Art Plastique (DNAP, diplôme national d’art plastique), d’un Master en Direction Artistique Webdesign et d'un diplôme de Développeur Web et Web Mobile, je suis passionnée par l'UX/UI design et l’innovation digitale",
+                firstIntro:"Diplômée d'une licence en Art Plastique (DNAP, diplôme national d’art plastique), d’un Master en Direction Artistique Webdesign et d'un diplôme de Développeur Web et Web Mobile, je suis passionnée par l'UX/UI design et l’innovation digitale.",
                 secondIntro:"Mes missions principales consistent à améliorer l’expérience utilisateur à travers des méthodes d’analyse et de conception orientées utilisateur (ateliers de créativité, parcours utilisateur, wireframes, maquettes d’interfaces, prototypes…) et ainsi faire évoluer les projets vers des pratiques plus innovantes.",
                 button:"Mes projets"
             },
@@ -94,7 +94,7 @@ const HOMEPAGE_DATA = [
                 h1:"Hey, i am",
                 jobs:["web developer","UX/UI designer"],
                 firstIntro:"Graduated with a bachelor of Arts, a master of Artistic Direction in Webdesign and a developer web and web mobile diploma, I'm really interested by UX/UI design and digital innovation.",
-                secondIntro:"My mains goals are to improve the user experience by using  analyse and conception methods user centered (creative workshop, storyboard, wireframes, UI interfaces, prototypes…) and develop projects into more innovative practises",
+                secondIntro:"My mains goals are to improve the user experience by using  analyse and conception methods user centered (creative workshop, storyboard, wireframes, UI interfaces, prototypes…) and develop projects into more innovative practises.",
                 button:"My projects"
             },
         "projects":
@@ -106,13 +106,13 @@ const HOMEPAGE_DATA = [
           {
             job: "UX / UI Designer &&  front-end Developer",
             entreprise: "Faventine Joaillerie (co-founder) • Montpellier • 2020-2021",
-            content: "Graphic identity, packaging, photo retouching, UI interfaces and integration HTML / CSS / JS",
+            content: "Graphic identity, packaging, photo retouching, UI interfaces and HTML / CSS / JS integration",
             id: 0
           },
           {
             job: "UX / UI Designer &&  Web Integrator",
             entreprise: "ZEROSIX • Montpellier • 2018-2020",
-            content: "UI interfaces of the website and the dashboard (SAAS platform).\nIntegration HTML / CSS / JS et tests.\nGraphic identity and communication media (print, digital and motion video).",
+            content: "UI interfaces of the website and the dashboard (SAAS platform).\nHTML / CSS / JS integration and tests.\nGraphic identity and communication medias (print, digital and motion video).",
             id: 1
           },
           {
@@ -144,13 +144,13 @@ const HOMEPAGE_DATA = [
           {
             diploma:"DNAP - National Art Plastic Diploma (Bachelor)",
             year:"2014",
-            school:"Ecole supérieure d'art - Cambrai",
+            school:"Graduate school of art - Cambrai",
             id: 2
           },
           {
             diploma:"General Baccalaureat Economic and Social",
             year:"2011",
-            school:"Lycée Dumont d'Urville - Maurepas",
+            school:"High school d'Urville - Maurepas",
             id: 3
           }
         ],

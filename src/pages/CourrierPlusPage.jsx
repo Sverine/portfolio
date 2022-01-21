@@ -57,7 +57,7 @@ const CourrierPlusPage = () => {
                 <section className='intro column'>
                     <p>Lors de mes deux années au pôle innovation du siège de La Poste en tant que UX/UI Designer, j’ai eu l’occasion de mener plusieurs projets, dont Courrier +, une application de réalité augmentée : l’utilisateur peut scanner son courrier et visualiser son contenu en réalité augmentée.</p>
                     <p>Pour mener à bien ce projet, nous avons réalisé des ateliers de créativité avec des acteurs identifiés (clients de La Poste, Facteurs, et Profils Tech ).</p>
-                    <p>A l’aide de ces ateliers et des supports associés, nous avons réunis suffisament d’informations (sur les besoins, les usages et les moyens techniques) pour concevoir le parcours utilisateur d’une application centrée utilisateur.</p>
+                    <p>A l’aide de ces ateliers et des supports associés, nous avons réuni suffisamment d’informations (sur les besoins, les usages et les moyens techniques) pour concevoir le parcours utilisateur d’une application centrée utilisateur.</p>
                 </section>
 
                 <section className='identity column'>
@@ -111,7 +111,7 @@ const CourrierPlusPage = () => {
                     </div>
                 </section>
 
-                <FooterPages leftLink="etapes-print" rightLink="fiaac"/>
+                <FooterPages leftLink="etapes-print" rightLink="eggshot"/>
 
             </div>
             

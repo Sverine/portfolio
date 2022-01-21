@@ -75,7 +75,7 @@ const Home = () => {
 
                 {/* CV */}
                 <Title text={navigation.aboutMe} color={color} underLines="8681D5"/>
-                <Cv color={color} experiences={experiences} educations={educations} skills={skills}/>
+                <Cv color={color} isEnglish={language} experiences={experiences} educations={educations} skills={skills}/>
 
                 {/* CONTACT */}
                 <Title text={navigation.contact} color={color} underLines="8681D5"/>

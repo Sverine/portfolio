@@ -33,6 +33,11 @@ const LaReservePage = () => {
         strings: [
         'BD',
         'livres de cuisine',
+        'mangas',
+        'policiers',
+        'livres de voyage',
+        'livres fantaisie',
+        'polars',
         'romans'
         ],
         typeSpeed: 50,
@@ -49,7 +54,7 @@ const LaReservePage = () => {
             // to prevent memory leaks
             typed.current.destroy();
         }
-    }, [options])
+    })
 
     return (
         <div className='la-reserve'>
@@ -63,12 +68,12 @@ const LaReservePage = () => {
                 </header>
 
                 <section className="intro column">
-                    <p>La Réserve de la Chapelle est une application web d’une médiathèque souhaitant mettre en place le système de click & collect.
+                    <p>La Réserve de la Chapelle est une application web d’une médiathèque souhaitant mettre en place un système de click & collect.
                     C’est un projet réalisé dans le cadre de ma formation de développeur web .</p>
                     <p>La Réserve de la Chapelle propose un catalogue en ligne à destination des adhérents pour consulter et réserver des livres. 
                     L’application dispose également d’une interface back-office accessible pour les employés de la Réserve leur permettant de s’occuper de la gestion de la médiathèque. L’employé peut valider les adhésions en attente, mettre à jour les status des emprunts lorsque le client vient chercher son livre ou le ramener, et créer, modifier ou supprimer des livres de la médiathèque.</p>
                     <button>
-                        <a target="_blank" href="https://lareserve.herokuapp.com/">Visiter le site</a>
+                        <a target="_blank" rel="noreferrer" href="https://lareserve.herokuapp.com/">Visiter le site</a>
                     </button>
                 </section>
 
@@ -97,7 +102,7 @@ const LaReservePage = () => {
                         <button>je m'inscris</button>
                     </div>
                     <div className="visuals-container">
-                        <figure><img src={character} alt="Photo de profil par défaut d'un utilisateur" /></figure>
+                        <figure><img src={character} alt="Profil par défaut d'un utilisateur" /></figure>
                         <figure><img src={book} alt="Couverture d'un livre" /></figure>
                     </div>
 

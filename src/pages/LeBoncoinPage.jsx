@@ -60,7 +60,7 @@ const LeBoncoinPage = () => {
                                 <li>Design épuré et moins chargé</li>
                                 <li>Autres articles à proximité de chez moi</li>
                                 <li>Historique des derniers articles consultés</li>
-                                <li>Barre de recherche : “me prevenir lorsque cet article est situé à moins de 60km de chez moi”</li>
+                                <li>Barre de recherche : “me prévenir lorsque cet article est situé à moins de 60km de chez moi”</li>
                                 <li>Ajout de fonctionnalités visibles grâce à l’utilisation d’accordéon
                                     <ul className='features-list'>
                                         <li><span>Détails de l'article <br/></span>Afficher plus d’informations</li>
@@ -79,7 +79,7 @@ const LeBoncoinPage = () => {
                         <div className="homepage">
                             <ul>
                                 <li className='heading'>HOMEPAGE</li>
-                                <li>Un seul CTA (call to action) pour simplifier la requpete principale</li>
+                                <li>Un seul CTA (call to action) pour simplifier la requête principale</li>
                                 <li>Navigation sous forme de burger</li>
                             </ul>
                             <figure><img src={mobileHome} alt="Mockup page d'accueil sur mobile" /></figure>
