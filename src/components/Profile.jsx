@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 
 import '../styles/components/_profile.scss';
 
+import profile from '../assets/profil-picture.png';
+
 const Profile = ({darkMode, color, content}) => {
 
     const jobsArray = content.jobs;
@@ -45,8 +47,9 @@ const Profile = ({darkMode, color, content}) => {
                         className='job'>{job}</span>
                     ))}
             </h1>
-            <figure>
-                <img src="https://via.placeholder.com/300" alt="profil"/>
+            <figure className='profile-container'>
+                {/* <img src="https://via.placeholder.com/300" alt="profil"/> */}
+                <img src={profile} alt="profil"/>
             </figure>
             <div style={{color:color}}>
                 <p>{content.firstIntro}</p>
