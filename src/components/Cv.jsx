@@ -47,7 +47,7 @@ const Cv = ({isEnglish, color, experiences,educations,skills}) => {
             </div>
             <div className="educations">
                 <div className="title">
-                    <h3 style={{color:color}}>{isEnglish?"Education":"Formations"}</h3>
+                    <h3 style={{color:color}}>{isEnglish?"Educational background":"Formations"}</h3>
                     <figure>
                         <img src={titleUnderline} alt="underline title"/>
                     </figure>

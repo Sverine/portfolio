@@ -93,8 +93,8 @@ const HOMEPAGE_DATA = [
             {
                 h1:"Hey, i am",
                 jobs:["web developer","UX/UI designer"],
-                firstIntro:"Graduated with a bachelor of Arts, a master of Artistic Direction in Webdesign and a developer web and web mobile diploma, I'm really interested by UX/UI design and digital innovation.",
-                secondIntro:"My mains goals are to improve the user experience by using  analyse and conception methods user centered (creative workshop, storyboard, wireframes, UI interfaces, prototypes…) and develop projects into more innovative practises.",
+                firstIntro:"Graduated of a Bachelor of Arts, a Master in Artistic Direction in web Design and a Developer in web and web mobile diploma, I’m really interested in UX/UI design and digital innovation.",
+                secondIntro:"My main goals are to improve user experience by performing user-centered analysis and conception methods (creative workshops, storyboards, wireframes, UI interfaces, prototypes…) and to develop projects towards more innovative practices.",
                 button:"My projects"
             },
         "projects":
@@ -105,50 +105,50 @@ const HOMEPAGE_DATA = [
         "experiences": [
           {
             job: "UX / UI Designer &&  front-end Developer",
-            entreprise: "Faventine Joaillerie (co-founder) • Montpellier • 2020-2021",
-            content: "Graphic identity, packaging, photo retouching, UI interfaces and HTML / CSS / JS integration",
+            entreprise: "Faventine Joaillerie (co-creator) • Montpellier • 2020-2021",
+            content: "Graphic identity, Packaging, Photo Editing, HTML / CSS / JS Interface and Integration models ",
             id: 0
           },
           {
-            job: "UX / UI Designer &&  Web Integrator",
+            job: "UX / UI Designer &&  Integrator",
             entreprise: "ZEROSIX • Montpellier • 2018-2020",
-            content: "UI interfaces of the website and the dashboard (SAAS platform).\nHTML / CSS / JS integration and tests.\nGraphic identity and communication medias (print, digital and motion video).",
+            content: "Interface model of the internet showcase site and of the dashboard (SAAS platform). .\nHTML / CSS / JS Integration and acceptance tests.\nGraphic Identity and communication support (Print, digital and motion videos)..",
             id: 1
           },
           {
             job: "UX / UI Designer",
-            entreprise: "Innovation service of La Poste headquarter • Paris • 2014-2016",
-            content: "Animation of creative workshops, workshops supports, Storyboards, Mobile UI interfaces, Print and digitals presentations.",
+            entreprise: "Innovation pole at La Poste Headquarters • Paris • 2014-2016",
+            content: "Creativity workshop animation, Workshop medium, Storyboards, Mobile interface models, Print and digital Deliveries.",
             id: 2
           },
           {
             job: "Webdesigner",
             entreprise: "SOJEANS • Paris • June- August 2013",
-            content: "Creation of visuals for the website, photo retouching, landing ads.",
+            content: "Implementation of internet site visuals, Photo Editing, advertising banners.",
             id: 3
           },
         ],
         "educations":[
           {
-            diploma:"Graduate Developer of Web and Mobile Web (bac +2)",
+            diploma:"Graduate diploma of Developer in web and web mobile (bac +2)",
             year:"2021",
             school:"Digital Campus Live",
             id: 0
           },
           {
-            diploma:"MASTER Artistic direction in Webdesign",
+            diploma:"MASTER 2 Artistic Director in Web Design",
             year:"2016",
             school:"Autograf - Paris",
             id: 1
           },
           {
-            diploma:"DNAP - National Art Plastic Diploma (Bachelor)",
+            diploma:"DNAP - National Art Plastic Diploma (Bachelor’s degree)",
             year:"2014",
             school:"Graduate school of art - Cambrai",
             id: 2
           },
           {
-            diploma:"General Baccalaureat Economic and Social",
+            diploma:"French Baccalauréat in Economics and Social studies",
             year:"2011",
             school:"High school d'Urville - Maurepas",
             id: 3
@@ -162,7 +162,7 @@ const HOMEPAGE_DATA = [
           validation:"Message sent !"
         },
         "footer":{
-          thank:"Thank your for reading !"
+          thank:"Thank you for reading my story !"
         }
     },
     {
