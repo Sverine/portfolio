@@ -20,8 +20,8 @@ const Home = () => {
     const [color, setColor]= useState("white");
     const [language, setLanguage] = useState(0);
 
-    const {navigation, profile, projects, experiences,educations,contact, footer}= HOMEPAGE_DATA[language];
-    const skills= HOMEPAGE_DATA[2].skills;
+    const {navigation, profile, projects, experiences,educations,skills, contact, footer}= HOMEPAGE_DATA[language];
+    // const skills= HOMEPAGE_DATA[2].skills;
 
 
     const handleClick=()=>{

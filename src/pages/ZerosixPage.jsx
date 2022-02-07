@@ -85,7 +85,7 @@ const ZerosixPage = () => {
 
                 <section  className="intro column">
                     <p>ZEROSIX est une start-up montpelliéraine proposant la gestion d’un programme de fidélité aux commerçants (solution SAAS).</p>
-                    <p>Au sein de l’entreprise, j’ai eu en charge la conception de maquettes d’interfaces (desktop et mobile) et l’intégration front des tableaux de bords à destination des clients. Afin d’améliorer l’expérience utilisateur des clients lors de la création de nouvelles offres, les maquettes, les personas, les retours clients, les phases de brainstorming et les tests en interne (recettes) ont été au coeur de mon travail.</p>
+                    <p>Au sein de l’entreprise, j’ai eu en charge la conception de maquettes d’interfaces (desktop et mobile) et l’intégration front des tableaux de bords à destination des clients. Afin d’améliorer l’expérience utilisateur des clients lors de la création de nouvelles offres, les maquettes, les personas, les retours clients, les phases de brainstorming et les tests en interne (recettes) ont été au cœur de mon travail.</p>
                 </section>
 
                 <section className="personas">
@@ -206,7 +206,7 @@ const ZerosixPage = () => {
                     <figure className='gif'>
                             <img src={gif} alt="Vidéo promotionnelle d'un salon" />
                     </figure>
-                    <p>Vidéo réalisée pour un salon evenementiel</p>
+                    <p>Vidéo réalisée pour un salon évènementiel</p>
 
                     <div className="iphone-gif">
                         <figure>

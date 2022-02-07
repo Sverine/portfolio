@@ -3,12 +3,15 @@ import MinLogo from '../components/MinLogo';
 import FooterPages from '../components/FooterPages';
 import Title from '../components/Title';
 import { NavLink } from 'react-router-dom';
+import Slideshow from '../components/Slideshow';
 
 import '../styles/pages/faventine.scss';
 
 import header from '../assets/pages/faventine/faventine-joaillerie-header.jpeg';
 import logo from '../assets/pages/faventine/faventine-joaillerie-logo.png';
-import persona from '../assets/pages/faventine/personas.jpg';
+
+
+
 import logoBlack from '../assets/pages/faventine/faventine-joaillerie-black-logo.png';
 import colors from '../assets/pages/faventine/faventine-colors.svg';
 import typos from '../assets/pages/faventine/faventine-typo.svg';
@@ -28,6 +31,9 @@ import workArrow from '../assets/pages/faventine/work-page.svg';
 
 const FaventinePage = () => {
     window.scrollTo({ top: 0 });
+
+    const personas = ["faventine/persona-matthieu.jpg","faventine/persona-camille.jpg"]
+
     return (
         <div className='faventine'>
             <div className="container isPage">
@@ -51,9 +57,9 @@ const FaventinePage = () => {
 
                 <section className="personas column">
                     <Title text="Personas" color="333333" underLines="207A80"/>
-                    <p>Jeanne, Camille et Jean</p>
+                    <p>Matthieu et Camille</p>
                     <figure>
-                        <img src={persona} alt="Persona de Faventine Joaillerie"/>
+                        <Slideshow content={personas} urlTest="faventine/persona-"/>
                     </figure>
                 </section>
 

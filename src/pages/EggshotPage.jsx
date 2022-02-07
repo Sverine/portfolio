@@ -50,10 +50,10 @@ const EggshotPage = () => {
                 </header>
 
                 <section  className="intro column">
-                    <p>EGGSHOT est un jeu issu d’un studio de jeux video (ayant développé Shady Part of Me).<br/>
+                    <p>EGGSHOT est un jeu issu d’un studio de jeux vidéo (ayant développé Shady Part of Me).<br/>
 C’est un jeu d’action qui met en scène des poulets se battant sur un décor sauvage. </p>
                     <p>Le joueur incarne un poulet qu’il peut personnaliser au fur et à mesure de son évolution et doit affronter d’autres poulets qu’il rencontre sur son chemin.</p>
-                    <p>En tant que graphiste et webdesigner, j’ai été en charge de la réalisation du logo ainsi que des visuels du site internet.</p>
+                    <p>En tant que graphiste et webdesigner, j’ai eu la charge de la réalisation du logo ainsi que des visuels du site internet.</p>
                 </section>
 
                 <section className="identity column">
