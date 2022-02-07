@@ -94,6 +94,7 @@ const Contact = ({color,content}) => {
     return (
         <div className='contact'>
             <p style={{color:color}}>{content.intro}</p>
+            <p style={{color:color}}>{content.intro2}</p>
             
             <form ref={form} onSubmit={sendEmail} onChange={handleChange}>
                 

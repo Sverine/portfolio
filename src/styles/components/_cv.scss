@@ -39,31 +39,39 @@
                 margin-bottom:50px;
                 p{
                     margin:0;
-                    &.job, &.diploma, &.skill{font-weight: 600;}
+                    &.job, &.diploma{font-weight: 600;}
                     &.entreprise, &.year{font-style: italic;}
                     &.content, &.school{font-weight: 300;}
                 }
-                .progress{
-                    width:100%;
-                    height: 100%;
-                    // background: rgba(0, 0, 0, 0.10);
-                    border-radius: 15px;
-                    
-                    .progress-bar{
-                        height: 5px;
-                        border-radius: 2px;
-                        transition-property: width, background-color;
-                        width:10%;
-                        background-color: $dark-purple;
-                        
+            }
+            &.skills {
+                margin-bottom: 50px;
+                .skill{
+                    margin:20px 0;
+                    p{
+                        margin: 0; font-weight: 300;
+                        &.description{font-weight: 400;}
                     }
-                }
-                &.skill-list{
-                    display:flex;
-                    flex-direction: column;
-                    >p{
-                        width:40%;
-                        min-width:320px;
+                    h5{margin-bottom: 10px; font-size:14px}
+                    span{color:#8C8AA4}
+                    a{
+                        text-decoration: underline;
+                        font-style: italic;
+                        margin-bottom: 2px;
+                        font-size: 14px;
+                    }
+                    .keywords-container {
+                        display:flex;
+                        flex-wrap: wrap;
+                        span{
+                            font-size:14px;
+                            font-weight: 200;
+                            color:white;
+                            background-color:#3A3673;
+                            padding:3px 8px;
+                            margin: 10px 8px 0 0;
+                            border-radius: 4px;
+                        }
                     }
                 }
             }
@@ -72,8 +80,14 @@
     }
 }
 
-@media screen and (min-width:720px){
-    li.skill-list{
-        flex-direction: row !important;
+@media screen and (min-width:900px){
+    .skills {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .skill{
+            width:45%;
+            margin:0 10px;
+        }
     }
 }

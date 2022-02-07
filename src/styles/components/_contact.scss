@@ -3,7 +3,9 @@
 .contact{
     margin-bottom: 150px;
     p{
-        text-align: center
+        text-align: center;
+        margin:8px 0;
+        font-weight: 300;
     }
     form{
         @include flex-column;

@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
+import Typed from 'typed.js';
 
 import '../styles/components/_profile.scss';
 
@@ -6,22 +7,22 @@ import profile from '../assets/profil-picture.png';
 
 const Profile = ({darkMode, color, content}) => {
 
-    const jobsArray = content.jobs;
+        //TYPED JS CONFIGURATION
+        const el = useRef(null);
+        const typed = useRef(null);
+        const options = {
+            strings: [
+            content.jobs[0],
+            content.jobs[1]
+            ],
+            typeSpeed: 70,
+            backSpeed: 50,
+            backDelay: 1500,
+            loop: true,
+            loopCount: Infinity
+        };
 
 
-    let jobsTitleIndex=0;
-    const showSlides=()=>{
-        let jobsTitle = document.querySelectorAll('.profile .job');
-        for(let i=0; i<jobsTitle.length;i++){
-            jobsTitle[i].style.display="none";
-        }
-        jobsTitleIndex++
-        if(jobsTitleIndex>jobsTitle.length){jobsTitleIndex=1};
-
-        jobsTitle[jobsTitleIndex-1].style.display="block";
-        jobsTitle[jobsTitleIndex-1].classList.add("fadeInUp");
-        setTimeout(showSlides,4000)
-    }
 
     const handleClick = ()=>{
         let projectsHeight= document.querySelector(".projects").offsetTop;
@@ -33,27 +34,28 @@ const Profile = ({darkMode, color, content}) => {
     }
 
 
-    useEffect(()=>{
-        showSlides();
+    useEffect(() => {
+        typed.current = new Typed(el.current, options);
+        
+        return () => {
+            // Make sure to destroy Typed instance during cleanup
+            // to prevent memory leaks
+            typed.current.destroy();
+        }
     })
     
     return (
         <div className='profile'> 
             <h1 style={{color:color}}>{content.h1} <br /> 
-                    {jobsArray.map((job, index)=>(
-                        <span 
-                        style={{color:darkMode?"#8681D5":"#302A8B"}}
-                        key={job} 
-                        className='job'>{job}</span>
-                    ))}
+                <span ref={el} style={{color:darkMode?"#8681D5":"#302A8B"}}/>
             </h1>
             <figure className='profile-container'>
-                {/* <img src="https://via.placeholder.com/300" alt="profil"/> */}
                 <img src={profile} alt="profil"/>
             </figure>
             <div style={{color:color}}>
                 <p>{content.firstIntro}</p>
                 <p>{content.secondIntro}</p>
+                <p>{content.thirdIntro}</p>
             </div>
 
             <div className="button-container" onClick={handleClick}>

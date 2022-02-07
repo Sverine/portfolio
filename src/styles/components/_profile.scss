@@ -15,8 +15,12 @@
     p{
         font-weight: 300;
     }
+    .typed-cursor{
+        color: #8681D5;
+        opacity:0.5;
+    }
     .profile-container{
-        max-width: 300px;
+        max-width: 450px;
         width:60%;
     }
     .button-container{
@@ -92,6 +96,8 @@
 @media screen and (min-width:1920px){
     .profile {
         height:100vh;
+        justify-content: flex-start;
+        margin:100px auto 0;
         h1{
             font-size: 45px;
         }
