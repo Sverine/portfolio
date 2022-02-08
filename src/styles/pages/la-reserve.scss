@@ -83,8 +83,33 @@
     .identity .icons{
         width:80%;
     }
+
+    .languages{
+        .front-languages{
+            margin-top:50px;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            figure{max-width:250px;}
+            figure:last-child{
+                margin-top:20px;
+            }
+        }
+        .back-languages{margin: 40px 10px}
+    }
+
     section{margin:50px 0;}
     p{text-align: center;}
+}
+
+@media screen and (min-width:500px){
+    .la-reserve{
+        .languages .front-languages {
+            flex-direction: row;
+            figure:last-child{margin-top:0;}
+            figure:first-child {margin-right:20px;}
+        }
+    }
 }
 
 @media screen and (min-width:1000px){

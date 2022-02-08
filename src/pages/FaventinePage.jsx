@@ -28,6 +28,7 @@ import packaging from '../assets/pages/faventine/faventine-joaillerie-packaging.
 import screens from '../assets/pages/faventine/faventine-joaillerie-screens.png';
 import productArrow from '../assets/pages/faventine/products-page.svg';
 import workArrow from '../assets/pages/faventine/work-page.svg';
+import languages from '../assets/pages/faventine/faventine-languages.svg';
 
 const FaventinePage = () => {
     window.scrollTo({ top: 0 });
@@ -147,6 +148,13 @@ const FaventinePage = () => {
                             <img src={workArrow} alt="Flêche pointant vers la page atelier"/>
                         </figure>
                     </div>
+                </section>
+
+                <section className="languages column">
+                    <Title text="Langages" color="333333" underLines="207A80"/>
+                    <figure>
+                        <img src={languages} alt="Langages utilisés" />
+                    </figure>
                 </section>
 
                 <FooterPages leftLink="" rightLink="zerosix"/>

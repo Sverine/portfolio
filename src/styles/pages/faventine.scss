@@ -60,17 +60,15 @@
         .screens{
             position: relative;
             .product-arrow , .work-arrow{
-                position: absolute;
-                width:150px;
+                display: none;
             }
-            .product-arrow{
-                right:12%;
-                top:25%;
-            }
-            .work-arrow{
-                left:8%;
-                bottom:25%;
-            }
+        }
+    }
+
+    .languages{
+        figure{
+            margin-top:50px;
+            max-width:250px;
         }
     }
     p{text-align: center;}
@@ -111,6 +109,21 @@
             .logo{
                 width:200px;
                 top:20px;
+            }
+        }
+        .interfaces .screens{
+            .product-arrow , .work-arrow{
+                display:block;
+                position: absolute;
+                width:150px;
+            }
+            .product-arrow{
+                right:12%;
+                top:25%;
+            }
+            .work-arrow{
+                left:8%;
+                bottom:25%;
             }
         }
     }
