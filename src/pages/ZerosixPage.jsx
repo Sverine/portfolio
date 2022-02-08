@@ -50,6 +50,12 @@ import wireframe from '../assets/pages/zerosix/zerosix-homepage-wireframes.jpeg'
 import scrollUnderlines from '../assets/pages/zerosix/scroll-underline.svg';
 import iPad from '../assets/pages/zerosix/zerosix-ipad-page.png';
 
+//LANGUAGES
+import languages1 from '../assets/pages/zerosix/zerosix-langages-1.svg';
+import languages2 from '../assets/pages/zerosix/zerosix-langages-2.svg';
+import languages3 from '../assets/pages/zerosix/zerosix-langages-3.svg';
+
+
 
 
 
@@ -244,6 +250,23 @@ const ZerosixPage = () => {
                     </figure>
                     <p>Borne iPad située en boutique permettant l’inscription au programme de fidélité</p>
 
+                </section>
+
+                <section className="languages column">
+                    <Title text="Langages" color="333333" underLines="E74C3C"/>
+                    <div className="front-languages">
+                        <figure>
+                            <img src={languages1} alt="Langages utilisés pour le front-end" />
+                        </figure>
+                        <figure>
+                            <img src={languages2} alt="Langages utilisés pour le front-end" />
+                        </figure>
+                    </div>
+                    <div className="back-languages">
+                        <figure>
+                            <img src={languages3} alt="Langages utilisés pour le back-end" />
+                        </figure>
+                    </div>
                 </section>
 
                 <FooterPages leftLink="faventine-joaillerie" rightLink="la-reserve-de-la-chapelle"/>

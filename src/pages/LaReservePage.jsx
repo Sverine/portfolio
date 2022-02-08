@@ -22,6 +22,11 @@ import interfacesFront from '../assets/pages/la-reserve/interfaces-front.png';
 import interfacesBack from '../assets/pages/la-reserve/interfaces-back.png';
 import FooterPages from '../components/FooterPages';
 import Slideshow from '../components/Slideshow';
+//LANGAGES
+import languages1 from '../assets/pages/la-reserve/la-reserve-langages-1.svg';
+import languages2 from '../assets/pages/la-reserve/la-reserve-langages-2.svg';
+import languages3 from '../assets/pages/la-reserve/la-reserve-langages-3.svg';
+
 
 const LaReservePage = () => {
     window.scrollTo({ top: 0 });
@@ -127,6 +132,23 @@ const LaReservePage = () => {
 
                     <figure><img src={interfacesBack} alt="Maquettes des écrans de l'application côté back" /></figure>
                     <p>Ecrans du back-office</p>
+                </section>
+
+                <section className="languages column">
+                    <Title text="languages" color="333333" underLines="33306F"/>
+                    <div className="front-languages">
+                        <figure>
+                            <img src={languages1} alt="Langages utilisés pour le front-end" />
+                        </figure>
+                        <figure>
+                            <img src={languages2} alt="Langages utilisés pour le front-end" />
+                        </figure>
+                    </div>
+                    <div className="back-languages">
+                        <figure>
+                            <img src={languages3} alt="Langages utilisés pour le back-end" />
+                        </figure>
+                    </div>
                 </section>
 
                 <FooterPages leftLink="zerosix" rightLink="etapes-print"/>

@@ -83,10 +83,10 @@ const HOMEPAGE_DATA = [
           {
             title:"HTML / CSS / SCSS",
             year:2,
-            intro:"Création de site vitrine et responsives",
+            intro:"Création de site vitrine responsive",
             description:"Site vitrine pour une association avec le framework Bootstrap : ",
             website:"https://sverine.github.io/montpellier-beach-cleaners/",
-            keywords : ["HTML5", "CSS3", "SCSS", "Bootstrap", "Tailwind"]
+            keywords : ["HTML5", "CSS3", "SCSS", "Git","Bootstrap", "Tailwind"]
           },
           {
             title:"JavaScript - ReactJS",
@@ -209,7 +209,7 @@ const HOMEPAGE_DATA = [
             intro:"Creation of internet showcase responsive website",
             description:"Website for an association by using the framework Bootstrap : ",
             website:"https://sverine.github.io/montpellier-beach-cleaners/",
-            keywords : ["HTML5", "CSS3", "SCSS", "Bootstrap", "Tailwind"]
+            keywords : ["HTML5", "CSS3", "SCSS", "Git","Bootstrap", "Tailwind"]
           },
           {
             title:"JavaScript - ReactJS",

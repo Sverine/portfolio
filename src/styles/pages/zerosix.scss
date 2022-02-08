@@ -110,6 +110,20 @@
             top:20%;
         }
     }
+
+    .languages{
+        .front-languages{
+            margin-top:50px;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            figure:last-child{
+                max-width:200px;
+                margin-top:20px;
+            }
+        }
+        .back-languages{margin-top:40px;}
+    }
 }
 
 //ANIMATIONS
@@ -149,6 +163,11 @@
         .scroll-underlines{
             right:7% !important; 
             top:24% !important
+        }
+        .languages .front-languages {
+            flex-direction: row;
+            figure:last-child{margin-top:0;}
+            figure:first-child {margin-right:20px;}
         }
     }
 }
