@@ -19,7 +19,7 @@ const Profile = ({darkMode, color, content}) => {
             backSpeed: 50,
             backDelay: 1500,
             loop: true,
-            loopCount: Infinity
+            loopCount: Infinity,
         };
 
 
