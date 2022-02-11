@@ -89,7 +89,7 @@ const HOMEPAGE_DATA = [
             keywords : ["HTML5", "CSS3", "SCSS", "Git","Bootstrap", "Tailwind"]
           },
           {
-            title:"JavaScript - ReactJS",
+            title:"JavaScript - ReactJS - Vue.JS",
             year:2,
             intro:"Développement Front-end, animation du DOM, requêtes asynchrones, React JS.",
             description:"Jeu de dés avec le framework Tailwind :",
@@ -103,7 +103,7 @@ const HOMEPAGE_DATA = [
             intro:"Création de base de données, développement des composants d’accès aux données, back-end d’application web, mise en oeuvre des composants dans une application de gestion de contenu.",
             description:"Application pour une médiathèque avec PHP, Symfony, Twig, MySQL, Heroku",
             website:"https://lareserve.herokuapp.com/",
-            keywords : ["PHP", "MySQL", "Symfony", "Twig", "Webpack", "Heroku"]
+            keywords : ["PHP", "MySQL", "Symfony","PHPUnit", "Twig", "Webpack", "Heroku"]
           },
           {
             title:"Motion Design",
@@ -212,7 +212,7 @@ const HOMEPAGE_DATA = [
             keywords : ["HTML5", "CSS3", "SCSS", "Git","Bootstrap", "Tailwind"]
           },
           {
-            title:"JavaScript - ReactJS",
+            title:"JavaScript - ReactJS - Vue.JS",
             year:2,
             intro:"Front-end Development, DOM's animation, asynchronous requests, ReactJS.",
             description:"Dice game's realization by using the framework Tailwind :",
@@ -226,7 +226,7 @@ const HOMEPAGE_DATA = [
             intro:"Database creation, components development of data access components, back-end of web application, implementation of components in a content management application.",
             description:"Application for a library by using PHP, Symfony, Twig, MySQL, Heroku",
             website:"https://lareserve.herokuapp.com/",
-            keywords : ["PHP", "MySQL", "Symfony", "Twig", "Webpack", "Heroku"]
+            keywords : ["PHP", "MySQL", "Symfony", "PHPUnit", "Twig", "Webpack", "Heroku"]
           },
           {
             title:"Motion Design",

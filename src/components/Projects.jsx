@@ -27,7 +27,6 @@ const Projects = ({color,content}) => {
     useEffect(() => {
         isotope.current = new Isotope(".portfolio-items", {
             itemSelector: ".item",
-            // layoutMode: "fitRows"
             layoutMode: 'masonry',
             masonry: {
                 fitWidth: true

@@ -30,9 +30,14 @@
            max-width: 500px;
        }
    }
-   .identity .colors-container, .posters figure, .facebook figure{
+   .identity .colors-container, .facebook figure{
        width:80%;
        max-width:800px;
+    }
+    .posters figure{
+        margin-top:20px;
+        width:90%;
+        max-width:900px;
     }
 
    .identity, .posters, .facebook{

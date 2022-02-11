@@ -73,7 +73,7 @@ const LaReservePage = () => {
                 </header>
 
                 <section className="intro column">
-                    <p>La Réserve de la Chapelle l'application web d’une médiathèque souhaitant mettre en place un système de click & collect.
+                    <p>La Réserve de la Chapelle est l'application web d’une médiathèque souhaitant mettre en place un système de click & collect.
                     C’est un projet réalisé dans le cadre de ma formation de développeur web .</p>
                     <p>La Réserve de la Chapelle propose un catalogue en ligne à destination des adhérents pour consulter et réserver des livres. 
                     L’application dispose également d’une interface back-office accessible pour les employés de la Réserve leur permettant de s’occuper de la gestion de la médiathèque. L’employé peut valider les adhésions en attente, mettre à jour les statuts des emprunts lorsque le client vient chercher son livre ou le ramener, et créer, modifier ou supprimer des livres de la médiathèque.</p>
