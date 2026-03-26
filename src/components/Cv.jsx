@@ -52,22 +52,22 @@ const Cv = ({isEnglish, color, experiences,educations,skills}) => {
                     ))}
                 </ul>
             </div>
-            <div className="skills">
-                <div className="title">
-                    <h3 style={{color:color}}>{isEnglish?"Skills":"Compétences"}</h3>
-                    <figure>
-                        <img src={titleUnderline} alt="underline title"/>
-                    </figure>
-                </div>
+            {/*<div className="skills">*/}
+            {/*    <div className="title">*/}
+            {/*        <h3 style={{color:color}}>{isEnglish?"Skills":"Compétences"}</h3>*/}
+            {/*        <figure>*/}
+            {/*            <img src={titleUnderline} alt="underline title"/>*/}
+            {/*        </figure>*/}
+            {/*    </div>*/}
 
-                <ul className='skills'>
-                    {
-                    skills.map((skill, index)=>(
-                        <Skill key={index} skill={skill} color={color}/>
-                    ))
-                    }
-                </ul>
-            </div>
+            {/*    <ul className='skills'>*/}
+            {/*        {*/}
+            {/*        skills.map((skill, index)=>(*/}
+            {/*            <Skill key={index} skill={skill} color={color}/>*/}
+            {/*        ))*/}
+            {/*        }*/}
+            {/*    </ul>*/}
+            {/*</div>*/}
         </div>
     );
 };

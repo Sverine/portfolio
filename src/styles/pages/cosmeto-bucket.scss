@@ -1,0 +1,102 @@
+@import "../settings.scss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+.cosmeto-bucket{
+  header{
+    position: relative;
+    figure:last-child{
+      position:absolute;
+      top:25%;
+      left:50%;
+      transform:translateX(-50%);
+      max-width:150px;
+    }
+  }
+  .intro{
+    p{
+      padding:0 20px;
+      text-align: center;
+      max-width:900px;
+    }
+  }
+  .identity{
+    .identity-container{
+      @include flex-column;
+      width:80%;
+      figure{
+        margin:20px;
+        &:first-of-type{
+          width:100px;
+        }
+        &:last-child{max-width:400px}
+      }
+    }
+    .visuals-container{
+      @include flex-column;
+      figure{
+        margin:20px;
+        max-width:300px;
+      }
+    }
+  }
+  .identity .icons{
+    width:80%;
+  }
+
+  .languages{
+    margin-top:50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    figure{max-width:250px;}
+    figure:last-child{
+      margin-top:20px;
+    }
+  }
+
+  section{margin:50px 0;}
+  p{text-align: center;}
+}
+
+@media screen and (min-width:500px){
+  .cosmeto-bucket{
+    .languages .front-languages {
+      flex-direction: row;
+      figure:last-child{margin-top:0;}
+      figure:first-child {margin-right:20px;}
+    }
+  }
+}
+
+@media screen and (min-width:1000px){
+  .cosmeto-bucket{
+    header{
+      figure{
+        &:last-child{width:100px}
+        &:first-of-type{margin-top:-5%;}
+      }
+    }
+    .identity{
+      .identity-container{
+        flex-direction: row !important;
+        figure{
+          &:first-of-type{width:150px}
+        }
+      }
+      .visuals-container{
+        flex-direction: row !important;
+        justify-content: space-evenly;
+        width:50%;
+      }
+      .icons{max-width: 320px;}
+    }
+    .interfaces{
+      p{margin-top:0}
+      figure{
+        margin-bottom:0;
+        width:80%;
+        max-width:1000px;
+      }
+    }
+  }
+}

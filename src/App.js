@@ -11,6 +11,7 @@ import FiaacPage from './pages/FiaacPage';
 import LaReservePage from './pages/LaReservePage';
 import LeBoncoinPage from './pages/LeBoncoinPage';
 import MuchosTacosPage from './pages/MuchosTacosPage';
+import CosmetoBucketPage from "./pages/CosmetoBucketPage";
 
 
 const App =()=> {
@@ -19,12 +20,13 @@ const App =()=> {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/faventine-joaillerie" element={<FaventinePage/>}/>
+        <Route path="/cosmeto-bucket" element={<CosmetoBucketPage/>}/>
         <Route path="/zerosix" element={<ZerosixPage/>}/>
         <Route path="/la-reserve-de-la-chapelle" element={<LaReservePage/>}/>
         <Route path="/etapes-print" element={<EtapesPrintPage/>}/>
         <Route path="/courrier-plus" element={<CourrierPlusPage/>}/>
         <Route path="/eggshot" element={<EggshotPage/>}/>
-        <Route path="/le-boncoin" element={<LeBoncoinPage/>}/>
+        {/*<Route path="/le-boncoin" element={<LeBoncoinPage/>}/>*/}
         <Route path="/fiaac" element={<FiaacPage/>}/>
         <Route path="/muchos-tacos" element={<MuchosTacosPage/>}/>
         <Route path="*" element={<NotFound/>}/>

@@ -26,9 +26,12 @@ import gemsIcons4 from '../assets/pages/faventine/gems-bottom-right.svg';
 import emailsIcons from '../assets/pages/faventine/email-icons.svg';
 import packaging from '../assets/pages/faventine/faventine-joaillerie-packaging.jpeg';
 import screens from '../assets/pages/faventine/faventine-joaillerie-screens.png';
-import productArrow from '../assets/pages/faventine/products-page.svg';
+import homeArrow from '../assets/pages/faventine/homepage.svg';
 import workArrow from '../assets/pages/faventine/work-page.svg';
 import languages from '../assets/pages/faventine/faventine-languages.svg';
+import browser from "../assets/pages/zerosix/browser-mockup.png";
+import wireframeProduct from "../assets/pages/faventine/page-produit-faventine.png";
+import browserHeaderBar from "../assets/pages/faventine/header-mockup-bar.png";
 
 const FaventinePage = () => {
     window.scrollTo({ top: 0 });
@@ -137,9 +140,23 @@ const FaventinePage = () => {
 
                 <section className="interfaces column">
                     <Title text="Maquettes et intégration" color="333333" underLines="207A80"/>
+                    <figure className='header-bar'>
+                        <img src={browserHeaderBar} alt="Barre de navigation du navigateur" />
+                    </figure>
+                    <div className="browser">
+                        <figure>
+                            <img src={browser} alt="Mockup d'un navigateur web"/>
+                            <div className="content">
+                                <figure>
+                                    <img src={wireframeProduct} alt="Capture du site vitrine" />
+                                </figure>
+                            </div>
+                        </figure>
+                    </div>
+
                     <div className="screens">
                         <figure className="product-arrow">
-                            <img src={productArrow} alt="Flêche pointant vers la page produit"/>
+                            <img src={homeArrow} alt="Flêche pointant vers la page produit"/>
                         </figure>
                         <figure>
                             <img src={screens} alt="Maquettes de la page produit et notre atelier"/>
@@ -157,7 +174,7 @@ const FaventinePage = () => {
                     </figure>
                 </section>
 
-                <FooterPages leftLink="" rightLink="zerosix"/>
+                <FooterPages leftLink="" rightLink="cosmeto-bucket"/>
                 
             </div>
         </div>

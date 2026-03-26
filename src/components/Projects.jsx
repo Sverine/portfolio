@@ -9,7 +9,8 @@ import zerosix from '../assets/projects-img/zerosix-item-img.jpeg';
 import etapesPrint from '../assets/projects-img/etapes-print-item-img.jpeg';
 import laposte from '../assets/projects-img/courrier-plus-item-img.jpeg';
 import eggShot from '../assets/projects-img/egg-shot-item-img.jpeg';
-import leBonCoin from '../assets/projects-img/leboncoin-item-img.jpeg';
+// import leBonCoin from '../assets/projects-img/leboncoin-item-img.jpeg';
+import cosmetoBucket from '../assets/projects-img/cosmeto-bucket-item-img.jpg';
 import fiaac from '../assets/projects-img/fiaac-item-img.jpeg';
 import muchosTacos from '../assets/projects-img/muchos-tacos-item-img.jpeg';
 import laReserveDeLaChapelle from '../assets/projects-img/la-reserve-de-la-chapelle-item-img.jpg';
@@ -73,6 +74,14 @@ const Projects = ({color,content}) => {
                 </div>
 
                 <div className={`item ${themes[0]} ${themes[1]} ${themes[2]} ${themes[3]}`}>
+                    <NavLink to="/cosmeto-bucket">
+                        <figure>
+                            <img src={cosmetoBucket} alt="Miniature Cosmeto Bucket App"/>
+                        </figure>
+                    </NavLink>
+                </div>
+
+                <div className={`item ${themes[0]} ${themes[1]} ${themes[2]} ${themes[3]}`}>
                 <NavLink to="/zerosix">
                         <figure>
                             <img src={zerosix} alt="Miniature ZEROSIX"/>
@@ -111,13 +120,6 @@ const Projects = ({color,content}) => {
                     </NavLink>
                 </div>
 
-                <div className={`item ${themes[0]}`}>
-                    <NavLink to="/le-boncoin">
-                        <figure>
-                            <img src={leBonCoin} alt="Miniature Leboncoin"/>
-                        </figure>
-                    </NavLink>
-                </div>
                 <div className={`item ${themes[2]}`}>
                     <NavLink to="/fiaac">
                         <figure>
