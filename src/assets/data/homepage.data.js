@@ -22,29 +22,41 @@ const HOMEPAGE_DATA = [
                 more:"Et bien plus..."
             },
         "experiences": [
+            {
+                job: "Développeur Full Stack",
+                entreprise: "Nepting • Montpellier • 2025-2026",
+                content: "Conception des maquettes UI/UX en amont du développement.\nDéveloppement frontend avec Angular (Signals, Resources, Guards, Interceptors, Angular Material).\nDéveloppement et maintenance des APIs REST avec Spring Boot (JPA / Criteria).\nGestion de la base de données PostgreSQL et versioning des schémas avec Liquibase.",
+                id: 0
+            },
+            {
+                job: "Développeur front-end",
+                entreprise: "Crédit Agricole (Capgemini) • Montpellier • 2022-2025",
+                content: "Conception et optimisation d'une application de gestion de patrimoine (Angular v14 à v19), développement de composants réutilisables, gestion du routing et des services.\nTests unitaires (Jasmine / Jest) et suivi de qualité via SonarQube.\nContribution aux revues de code, chiffrage des features et documentation technique (Swagger / OpenAPI).\nGestion des pipelines GitLab CI/CD en méthodologie Scrum.",
+                id: 1
+            },
           {
             job: "UX / UI Designer &&  Développeur front-end",
             entreprise: "Faventine Joaillerie (co-fondateur) • Montpellier • 2020-2021",
             content: "Identité graphique, packaging, retouches photos, maquettes d’interfaces et intégration HTML / CSS / JS",
-            id: 0
+            id: 2
           },
-          {
-            job: "UX / UI Designer &&  Développeur front-end",
-            entreprise: "ZEROSIX • Montpellier • 2018-2020",
-            content: "Maquettes d’interfaces du site internet vitrine et du tableau de bord (plateforme SAAS).\nIntégration HTML / CSS / JS et recettes.\nIdentité graphique et supports de communication (print, digital et motion video).",
-            id: 1
-          },
+            {
+                job: "UX / UI Designer & Développeur front-end",
+                entreprise: "ZEROSIX • Montpellier • 2018-2020",
+                content: "Maquettes d'interfaces du site vitrine et du tableau de bord (plateforme SaaS).\nDéveloppement de composants VueJS et intégration HTML / CSS / JS.\nIdentité graphique et supports de communication (print, digital et motion vidéo).",
+                id: 3
+            },
           {
             job: "UX / UI Designer",
             entreprise: "Pôle Innovation siège de La Poste • Paris • 2014-2016",
             content: "Animation d’ateliers de créativité, Supports d’ateliers, Storyboards, Maquettes d’interfaces mobiles, Livrables print et digitaux.",
-            id: 2
+            id: 4
           },
           {
             job: "Webdesigner",
             entreprise: "SOJEANS • Paris • Juin- Août 2013",
             content: "Réalisation de visuels pour le site internet, retouches photos, bannières publicitaires.",
-            id: 3
+            id: 5
           },
         ],
         "educations":[
@@ -145,29 +157,41 @@ const HOMEPAGE_DATA = [
             more:"And much more..."
         },
         "experiences": [
+            {
+                job: "Full Stack Developer",
+                entreprise: "Nepting • Montpellier • 2025-2026",
+                content: "UI/UX wireframing and prototyping prior to development.\nFrontend development with Angular (Signals, Resources, Guards, Interceptors, Angular Material).\nREST API development and maintenance with Spring Boot (JPA / Criteria).\nPostgreSQL database management and schema versioning with Liquibase.",
+                id: 0
+            },
+            {
+                job: "Front-end Developer",
+                entreprise: "Crédit Agricole (Capgemini) • Montpellier • 2022-2025",
+                content: "Design and optimization of a wealth management application (Angular v14 to v19), reusable component development, routing and services management.\nUnit testing (Jasmine / Jest) and code quality monitoring with SonarQube.\nCode reviews, feature estimation and technical documentation (Swagger / OpenAPI).\nGitLab CI/CD pipeline management following Scrum methodology.",
+                id: 1
+            },
           {
             job: "UX / UI Designer &&  front-end Developer",
             entreprise: "Faventine Joaillerie (co-creator) • Montpellier • 2020-2021",
             content: "Graphic identity, Packaging, Photo Editing, HTML / CSS / JS Interface and Integration models ",
-            id: 0
+            id: 2
           },
-          {
-            job: "UX / UI Designer &&  Integrator",
-            entreprise: "ZEROSIX • Montpellier • 2018-2020",
-            content: "Interface model of the internet showcase site and of the dashboard (SAAS platform). .\nHTML / CSS / JS Integration and acceptance tests.\nGraphic Identity and communication support (Print, digital and motion videos)..",
-            id: 1
-          },
+            {
+                job: "UX / UI Designer & Front-end Developer",
+                entreprise: "ZEROSIX • Montpellier • 2018-2020",
+                content: "UI wireframing for the showcase website and dashboard (SaaS platform).\nVueJS component development and HTML / CSS / JS integration.\nBrand identity and communication materials (print, digital and motion video).",
+                id: 3
+            },
           {
             job: "UX / UI Designer",
             entreprise: "Innovation pole at La Poste Headquarters • Paris • 2014-2016",
             content: "Creativity workshop animation, Workshop medium, Storyboards, Mobile interface models, Print and digital Deliveries.",
-            id: 2
+            id: 4
           },
           {
             job: "Webdesigner",
             entreprise: "SOJEANS • Paris • June- August 2013",
             content: "Implementation of internet site visuals, Photo Editing, advertising banners.",
-            id: 3
+            id: 5
           },
         ],
         "educations":[

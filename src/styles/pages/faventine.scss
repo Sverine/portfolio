@@ -56,6 +56,26 @@
         }
     }
     .interfaces{
+      .header-bar{
+        width: 80%;
+        max-width:800px;
+        margin-top:20px;
+      }
+      .browser{
+        margin-top:-7px;
+        width: 80%;
+        max-width:800px;
+        position: relative;
+        overflow-y: scroll;
+        box-shadow: 0px 1px 10px -2px rgba(0,0,0,0.2);
+        border-radius: 0 0 5px 5px;
+        .content{
+          position: absolute;
+          top:0;
+          left:0;
+          width:100%;
+        }
+      }
         margin-top:20px;
         .screens{
             position: relative;
